@@ -2,7 +2,7 @@
 
 
 /*======== Window Load Function ========*/
-$(window).on('load', function() {
+$(window).on('load', function () {
 
     /*======== Preloader ========*/
     $(".loader").fadeOut();
@@ -10,12 +10,12 @@ $(window).on('load', function() {
 
 
     /*======== Isotope Portfolio Setup ========*/
-    if( $('.portfolio-items').length ) {
+    if ($('.portfolio-items').length) {
         var $elements = $(".portfolio-items"),
             $filters = $('.portfolio-filter ul li');
         $elements.isotope();
 
-        $filters.on('click', function(){
+        $filters.on('click', function () {
             $filters.removeClass('active');
             $(this).addClass('active');
             var selector = $(this).data('filter');
@@ -41,13 +41,13 @@ $(window).on('load', function() {
 
 
 /*======== Document Ready Function ========*/
-$(document).ready(function() {
+$(document).ready(function () {
 
     "use strict";
 
 
     /*======== SimpleBar Setup ========*/
-    $('.pt-page').each(function() {
+    $('.pt-page').each(function () {
         var $id = '#' + $(this).attr('id');
         new SimpleBar($($id)[0]);
     });
@@ -60,14 +60,14 @@ $(document).ready(function() {
     });
 
     /*======== Active Current Link ========*/
-    $('.nav-menu a').on('click',function() {
-        if($('.header-content.on').length) {
+    $('.nav-menu a').on('click', function () {
+        if ($('.header-content.on').length) {
             $('.header-content').removeClass('on');
         }
     });
 
     /*======== Mobile Toggle Click Setup ========*/
-    $('.header-toggle').on('click', function() {
+    $('.header-toggle').on('click', function () {
         $('header .header-content').toggleClass('on');
     });
 
@@ -119,12 +119,12 @@ $(document).ready(function() {
     });
 
     /*======== Skills Progress Animation ========*/
-    if($('.skills').length > 0) {
+    if ($('.skills').length > 0) {
         var el = new SimpleBar($('#resume')[0]).getScrollElement();
 
-        $(el).on('scroll', function() {
+        $(el).on('scroll', function () {
 
-            $('.progress .progress-bar').each(function() {
+            $('.progress .progress-bar').each(function () {
                 var bottom_object = $(this).offset().top + $(this).outerHeight();
                 var bottom_window = $(window).scrollTop() + $(window).height();
                 var progressWidth = $(this).data('progress-value') + '%';
@@ -137,10 +137,10 @@ $(document).ready(function() {
                     }, {
                         duration: 2000,
                         easing: 'swing',
-                        step: function() {
+                        step: function () {
                             $(this).text(Math.floor(this.countNum) + '%');
                         },
-                        complete: function() {
+                        complete: function () {
                             $(this).text(this.countNum + '%');
                         }
                     });
@@ -178,9 +178,9 @@ $(document).ready(function() {
     });
 
     /*======== Google Map Setup ========*/
-    if($('#map').length) {
-        initMap();
-     }
+    // if($('#map').length) {
+    //     initMap();
+    //  }
 
 
     /*======== Contact Form Setup ========*/
@@ -190,10 +190,10 @@ $(document).ready(function() {
 
 /*********** Function Ajax Portfolio Setup **********/
 function ajaxPortfolioSetup($ajaxLink, $ajaxContainer) {
-    $ajaxLink.on('click', function(e) {
+    $ajaxLink.on('click', function (e) {
         var link = $(this).attr('href');
 
-        if(link === "#") {
+        if (link === "#") {
             e.preventDefault();
             return;
         }
@@ -203,18 +203,18 @@ function ajaxPortfolioSetup($ajaxLink, $ajaxContainer) {
         $ajaxContainer.addClass('on');
         $.ajax({
             cache: false,
-            headers: {"cache-control": "no-cache"},
+            headers: { "cache-control": "no-cache" },
             url: link,
-            beforeSend: function() {
+            beforeSend: function () {
                 $ajaxContainer.find('.ajax-loader').show();
             },
-            success: function(result) {
+            success: function (result) {
                 $ajaxContainer.find('.content-wrap .popup-content').html(result);
             },
-            complete: function() {
+            complete: function () {
                 $ajaxContainer.find('.ajax-loader').hide();
             },
-            error: function(e) {
+            error: function (e) {
                 $ajaxContainer.find('.ajax-loader').hide();
                 $ajaxContainer.find('.content-wrap .popup-content').html('<h1 class="text-center">Something went wrong! Retry or refresh the page.</h1>')
             }
@@ -222,7 +222,7 @@ function ajaxPortfolioSetup($ajaxLink, $ajaxContainer) {
         e.preventDefault();
     });
 
-    $ajaxContainer.find('.popup-close').on('click', function() {
+    $ajaxContainer.find('.popup-close').on('click', function () {
         $ajaxContainer.removeClass('on');
     });
 
@@ -237,8 +237,8 @@ function initMap() {
         zoom = $("#map").data('zoom'),
         cordinates = new google.maps.LatLng(latitude, longitude);
 
-    var styles = [{"stylers":[{"saturation":-100},{"gamma":0.8},{"lightness":4},{"visibility":"on"}]},{"featureType":"landscape.natural","stylers":[{"visibility":"on"},{"color":"#5dff00"},{"gamma":4.97},{"lightness":-5},{"saturation":100}]}];
-        var mapOptions = {
+    var styles = [{ "stylers": [{ "saturation": -100 }, { "gamma": 0.8 }, { "lightness": 4 }, { "visibility": "on" }] }, { "featureType": "landscape.natural", "stylers": [{ "visibility": "on" }, { "color": "#5dff00" }, { "gamma": 4.97 }, { "lightness": -5 }, { "saturation": 100 }] }];
+    var mapOptions = {
         zoom: zoom,
         center: cordinates,
         mapTypeControl: false,
@@ -259,8 +259,8 @@ function initMap() {
 function contactFormSetup() {
 
     /*======== Check Field Have Value When Page Load ========*/
-    $('.input__field').each(function() {
-        if($(this).val()) {
+    $('.input__field').each(function () {
+        if ($(this).val()) {
             $(this).parent('.input').addClass('input--filled');
         } else {
             $(this).parent('.input').removeClass('input--filled');
@@ -268,8 +268,8 @@ function contactFormSetup() {
     });
 
     /*======== Check Field Have Value When Keyup ========*/
-    $('.input__field').on('keyup', function() {
-        if($(this).val()) {
+    $('.input__field').on('keyup', function () {
+        if ($(this).val()) {
             $(this).parent('.input').addClass('input--filled');
         } else {
             $(this).parent('.input').removeClass('input--filled');
@@ -277,7 +277,7 @@ function contactFormSetup() {
     });
 
 
-    $('#contact-form').on('submit', function(e) {
+    $('#contact-form').on('submit', function (e) {
         e.preventDefault();
         var name = $('#cf-name').val(),
             email = $('#cf-email').val(),
@@ -286,36 +286,36 @@ function contactFormSetup() {
             required = 0;
 
 
-        $('.cf-validate', this).each(function() {
-            if($(this).val() == '') {
+        $('.cf-validate', this).each(function () {
+            if ($(this).val() == '') {
                 $(this).addClass('cf-error');
                 required += 1;
             } else {
-                if($(this).hasClass('cf-error')) {
+                if ($(this).hasClass('cf-error')) {
                     $(this).removeClass('cf-error');
-                    if(required > 0) {
+                    if (required > 0) {
                         required -= 1;
                     }
                 }
             }
         });
-        if( required === 0 ) {
-            $.ajax({
-                type: 'POST',
-                url: 'mail.php',
-                data: {
-                    cf_name: name,
-                    cf_email: email,
-                    cf_message: message
-                },
-                success: function(data) {
-                    $("#contact-form .input__field").val("");
-                    showAlertBox(data.status, data.responseText);
-                },
-                error: function(data) {
-                    showAlertBox(data.status, data.responseText);
-                }
-            });
+        if (required === 0) {
+            // $.ajax({
+            //     type: 'POST',
+            //     url: 'mail.php',
+            //     data: {
+            //         cf_name: name,
+            //         cf_email: email,
+            //         cf_message: message
+            //     },
+            //     success: function(data) {
+            //         $("#contact-form .input__field").val("");
+            //         showAlertBox(data.status, data.responseText);
+            //     },
+            //     error: function(data) {
+            //         showAlertBox(data.status, data.responseText);
+            //     }
+            // });
         }
     });
 }
@@ -325,7 +325,7 @@ function contactFormSetup() {
 function showAlertBox(response, message) {
     var $alertBox = $('<div class="alert"></div>'),
         $alContainer = $('#contact-form .alert-container');
-    if( response == 200 ) {
+    if (response == 200) {
         $alertBox.addClass('alert-success').html(message);
         $alContainer.html($alertBox);
     } else {
