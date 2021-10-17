@@ -4,7 +4,7 @@
 - 👯 I’m looking to collaborate on ... code
 - 🤔 I’m looking for help with ...developers
 - 💬 Ask me about ...software engineer
-- 📫 How to reach me: ...navjotsinghprince.github.io
+- 📫 How to reach me: ...navjotsinghprince.com
 - 😄 Pronouns: ...hahahah
 - ⚡ Fun fact: ...woah
 
