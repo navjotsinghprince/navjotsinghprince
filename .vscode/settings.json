@@ -1,0 +1,12 @@
+{
+    "workbench.preferredLightColorTheme": "Base16 Dark Eighties",
+    "workbench.colorCustomizations": {
+        "sideBar.background": "#222a2b",
+        "editor.background": "#222a2b",
+        "titleBar.activeBackground": "#222a2b",
+        "editorRuler.foreground": "#222a2b",
+        "editorIndentGuide.background": "#222a2b",
+        "activityBarBadge.background": "#222a2b",
+        "sideBarTitle.foreground": "#222a2b"
+    }
+}
