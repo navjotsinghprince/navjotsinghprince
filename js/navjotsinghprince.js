@@ -18,8 +18,7 @@ let my = {
   Email: "navjotsinghprince1@gmail.com",
   Phone: "(+91)8591373660",
   Freelance: "Unavailable",
-  Download_Resume:
-    "https://www.mediafire.com/file/bw8i4vdrgzg7c6k/Navjot__Singh_Resume.pdf/file",
+  Download_Resume: "https://www.mediafire.com/file/kcy899kafp90pw0/Navjot's+Resume.pdf/file",
 };
 
 var nodes = document.getElementById("about-info").getElementsByTagName("li");
