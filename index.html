@@ -145,7 +145,7 @@
                     </div>
 
                     <!--Nav Menus-->
-                    <nav class="nav-menu">#262f30
+                    <nav class="nav-menu">
                         <ul>
                             <li><a href="#home" class="pt-link active"><span class="nav-menu-icon"><i
                                             class="lnr lnr-home"></i></span>Home </a> </li>
@@ -177,10 +177,12 @@
                         </ul>
                         <!--Copyright Text-->
                         <div class="copy">
-                            <p>2021 &copy; By Prince <br>All Right Reserved.</p>
+                            <p id="copyright">
+                                <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+                                &copy; Navjot Singh Prince <br />All Right Reserved.
+                            </p>
                         </div>
                     </div>
-
                 </div>
             </div>
         </header>
@@ -272,11 +274,11 @@
                                     <li><span class="title">Email</span><span
                                             class="value">navjotsinghprince1@gmail.com</span></li>
                                     <li><span class="title">Phone</span><span class="value">(+91)8591373660</span></li>
-                                    <li><span class="title">Freelance</span><span class="value">Unavailable</span></li>
+                                    <!-- <li><span class="title">Freelance</span><span class="value">Unavailable</span></li> -->
                                 </ul>
                                 <div class="resume-button mt-30">
                                     <a class="btn-main"
-                                        href="https://www.mediafire.com/file/bw8i4vdrgzg7c6k/Navjot__Singh_Resume.pdf/file">Download
+                                        href="https://www.mediafire.com/file/kcy899kafp90pw0/Navjot's+Resume.pdf/file">Download
                                         Resume</a>
                                 </div>
                             </div>
@@ -1168,9 +1170,9 @@
         }
     </style>
     <script type="text/javascript">
-        (function () {
-            emailjs.init('user_O16GDlk4DjbOdQqy1oImm');
-        })();
+            (function () {
+                emailjs.init('user_O16GDlk4DjbOdQqy1oImm');
+            })();
     </script>
     <script type="text/javascript">
         window.onload = function () {

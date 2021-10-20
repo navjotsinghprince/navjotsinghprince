@@ -17,7 +17,7 @@ let my = {
   Address: "Kasu Begu Ferozepur Cantt 152004",
   Email: "navjotsinghprince1@gmail.com",
   Phone: "(+91)8591373660",
-  Freelance: "Unavailable",
+  // Freelance: "Unavailable",
   Download_Resume: "https://www.mediafire.com/file/kcy899kafp90pw0/Navjot's+Resume.pdf/file",
 };
 
