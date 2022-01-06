@@ -71,6 +71,48 @@
 
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
+    <style>
+        .btn-main {
+            border-color: #00A3E1 !important;
+            color: #00A3E1;
+        }
+
+        /* .btn-main:after {
+            content: '';
+            display: block;
+            width: 1.2em;
+            height: 1.2em;
+            position: absolute;
+            left: calc(50% - 0.75em);
+            top: calc(50% - 0.75em);
+            border: 0.15em solid transparent;
+            border-right-color: white;
+            border-radius: 50%;
+            animation: button-anim 0.7s linear infinite;
+            opacity: 0;
+        } */
+
+
+        @keyframes button-anim {
+            from {
+                transform: rotate(0);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .btn-main.loading {
+            color: transparent;
+        }
+
+        .btn-main.loading::after {
+            opacity: 1;
+        }
+
+        /* em values are used to adjust button values such as padding, radius etc. based on font-size */
+    </style>
 </head>
 
 <body>
@@ -261,7 +303,8 @@
                                     </span></li>
                                     <li><span class="title">Residence</span><span class="value">Punjab, INDIA</span>
                                     </li>
-                                    <li><span class="title">Address</span><span class="value">Ferozepur Cantt 152004</span>
+                                    <li><span class="title">Address</span><span class="value">Ferozepur Cantt
+                                            152004</span>
                                     </li>
                                     <li><span class="title">Email</span><span
                                             class="value">fzr@navjotsinghprince.com</span></li>
@@ -509,7 +552,10 @@
                                         <h5><a href="https://navjotsinghprince.github.io/Car-Racer-Game/"
                                                 title="Click me">PLAY GAME</a></h5>
                                         <p class="info">
-                                            This gaming project is developed using Pure HTML, CSS & Javascript. Talking about the gameplay, the user has to dodge from other cars and score points. The more you play, more you’ll score the points. PC controls are [Left, Right, Up, Down] Arrow Keys for movement]. 
+                                            This gaming project is developed using Pure HTML, CSS & Javascript. Talking
+                                            about the gameplay, the user has to dodge from other cars and score points.
+                                            The more you play, more you’ll score the points. PC controls are [Left,
+                                            Right, Up, Down] Arrow Keys for movement].
                                         </p>
                                     </div>
                                     <span class="year">
@@ -1040,8 +1086,9 @@
 
                                     <!--Submit Button-->
                                     <div class="col-md-12 text-center">
-                                        <!-- <input type="submit" class="btn-main" value="Send Message"> -->
-                                        <button type="submit" id="cf-submit" class="btn-main">Send Message</button>
+                                        <!-- <input type="submit" class="btn-main action-btn " value="Send Message"> -->
+                                        <button type="submit" id="cf-submit" class="btn-main">Send
+                                            Message</button>
                                     </div>
 
 
@@ -1189,6 +1236,11 @@
                 });
 
                 if (required === 0) {
+                    // const cfsubmit = document.getElementById("cf-submit");
+                    // cfsubmit.classList.add("loading");
+                    // setTimeout(() => cfsubmit.classList.remove("loading"), 3000);
+                    //return;
+                    
                     // generate a five digit number for the contact_number variable
                     this.contact_number.value = Math.random() * 100000 | 0;
                     // these IDs from the previous steps
