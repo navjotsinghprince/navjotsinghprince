@@ -312,8 +312,7 @@
                                     <!-- <li><span class="title">Freelance</span><span class="value">Unavailable</span></li> -->
                                 </ul>
                                 <div class="resume-button mt-30">
-                                    <a class="btn-main"
-                                        href="https://www.mediafire.com/file/vy2d86hklxpb9c5/Navjot%2527s_Resume.pdf/file">Download
+                                    <a class="btn-main" href="#" onclick="DownloadResume()">Download
                                         Resume</a>
                                 </div>
                             </div>
@@ -1240,7 +1239,7 @@
                     // cfsubmit.classList.add("loading");
                     // setTimeout(() => cfsubmit.classList.remove("loading"), 3000);
                     //return;
-                    
+
                     // generate a five digit number for the contact_number variable
                     this.contact_number.value = Math.random() * 100000 | 0;
                     // these IDs from the previous steps
@@ -1263,43 +1262,37 @@
     </script>
 
 
-<script type="text/javascript">
-    window.onload = function () {
-        setTimeout(function () {
-            DownloadFile("Navjot_Singh_Resume.pdf");
-        }, 1000);
-    };
-    function DownloadFile(fileName) {
-        alert("test");
-        //Set the File URL.
-        var url = "Files/" + fileName;
+    <script type="text/javascript">
+        function DownloadResume(fileName) {
+            //Set the File URL.
+            var url = "Files/" + fileName;
 
-        //Create XMLHTTP Request.
-        var req = new XMLHttpRequest();
-        req.open("GET", url, true);
-        req.responseType = "blob";
-        req.onload = function () {
-            //Convert the Byte Data to BLOB object.
-            var blob = new Blob([req.response], { type: "application/octetstream" });
+            //Create XMLHTTP Request.
+            var req = new XMLHttpRequest();
+            req.open("GET", url, true);
+            req.responseType = "blob";
+            req.onload = function () {
+                //Convert the Byte Data to BLOB object.
+                var blob = new Blob([req.response], { type: "application/octetstream" });
 
-            //Check the Browser type and download the File.
-            var isIE = false || !!document.documentMode;
-            if (isIE) {
-                window.navigator.msSaveBlob(blob, fileName);
-            } else {
-                var url = window.URL || window.webkitURL;
-                link = url.createObjectURL(blob);
-                var a = document.createElement("a");
-                a.setAttribute("download", fileName);
-                a.setAttribute("href", link);
-                document.body.appendChild(a);
-                a.click();
-                document.body.removeChild(a);
-            }
+                //Check the Browser type and download the File.
+                var isIE = false || !!document.documentMode;
+                if (isIE) {
+                    window.navigator.msSaveBlob(blob, fileName);
+                } else {
+                    var url = window.URL || window.webkitURL;
+                    link = url.createObjectURL(blob);
+                    var a = document.createElement("a");
+                    a.setAttribute("download", fileName);
+                    a.setAttribute("href", link);
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                }
+            };
+            req.send();
         };
-        req.send();
-    };
-</script>
+    </script>
 
 
 </body>
