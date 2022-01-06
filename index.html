@@ -1265,7 +1265,8 @@
     <script type="text/javascript">
         function DownloadResume(fileName) {
             //Set the File URL.
-            var url = "Files/" + fileName;
+            var url = window.location.origin + "Files/" + fileName;
+            console.log(url);
 
             //Create XMLHTTP Request.
             var req = new XMLHttpRequest();
