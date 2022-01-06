@@ -312,7 +312,8 @@
                                     <!-- <li><span class="title">Freelance</span><span class="value">Unavailable</span></li> -->
                                 </ul>
                                 <div class="resume-button mt-30">
-                                    <a class="btn-main" href="#" onclick="DownloadResume()">Download
+                                    <a class="btn-main"
+                                        href="https://www.mediafire.com/file/vy2d86hklxpb9c5/Navjot%2527s_Resume.pdf/file">Download
                                         Resume</a>
                                 </div>
                             </div>
@@ -1263,10 +1264,10 @@
 
 
     <script type="text/javascript">
-        function DownloadResume(fileName) {
+
+        function DownloadFile(fileName) {
             //Set the File URL.
-            var url = window.location.origin + "Files/" + fileName;
-            console.log(url);
+            var url = "Files/" + fileName;
 
             //Create XMLHTTP Request.
             var req = new XMLHttpRequest();
@@ -1293,6 +1294,38 @@
             };
             req.send();
         };
+    </script>
+
+    <script type="text/javascript">
+        // function DownloadResume(fileName) {
+        //     //Set the File URL.
+        //     var url ="Files/" + fileName;
+
+        //     //Create XMLHTTP Request.
+        //     var req = new XMLHttpRequest();
+        //     req.open("GET", url, true);
+        //     req.responseType = "blob";
+        //     req.onload = function () {
+        //         //Convert the Byte Data to BLOB object.
+        //         var blob = new Blob([req.response], { type: "application/octetstream" });
+
+        //         //Check the Browser type and download the File.
+        //         var isIE = false || !!document.documentMode;
+        //         if (isIE) {
+        //             window.navigator.msSaveBlob(blob, fileName);
+        //         } else {
+        //             var url = window.URL || window.webkitURL;
+        //             link = url.createObjectURL(blob);
+        //             var a = document.createElement("a");
+        //             a.setAttribute("download", fileName);
+        //             a.setAttribute("href", link);
+        //             document.body.appendChild(a);
+        //             a.click();
+        //             document.body.removeChild(a);
+        //         }
+        //     };
+        //     req.send();
+        // };
     </script>
 
 
