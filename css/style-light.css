@@ -500,10 +500,13 @@ textarea {
   overflow: hidden; }
   .btn-main:hover, .btn-main:focus {
     color: #fff; }
+
     .btn-main:hover:after, .btn-main:focus:after {
       opacity: 1;
       left: 0;
       width: 100%; }
+
+      
   .btn-main:after {
     position: absolute;
     content: "";

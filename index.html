@@ -60,6 +60,8 @@
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122650090-3"></script>
+
+    
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
@@ -72,46 +74,13 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <style>
-        .btn-main {
-            border-color: #00A3E1 !important;
-            color: #00A3E1;
-        }
-
-        /* .btn-main:after {
-            content: '';
-            display: block;
-            width: 1.2em;
-            height: 1.2em;
-            position: absolute;
-            left: calc(50% - 0.75em);
-            top: calc(50% - 0.75em);
-            border: 0.15em solid transparent;
-            border-right-color: white;
-            border-radius: 50%;
-            animation: button-anim 0.7s linear infinite;
-            opacity: 0;
+        /* .btn-main:hover:after,
+        .btn-main:focus:after {
+            opacity: 1;
+            left: 0;
+            width: 100%;
         } */
 
-
-        @keyframes button-anim {
-            from {
-                transform: rotate(0);
-            }
-
-            to {
-                transform: rotate(360deg);
-            }
-        }
-
-        .btn-main.loading {
-            color: transparent;
-        }
-
-        .btn-main.loading::after {
-            opacity: 1;
-        }
-
-        /* em values are used to adjust button values such as padding, radius etc. based on font-size */
     </style>
 </head>
 
@@ -1086,7 +1055,6 @@
 
                                     <!--Submit Button-->
                                     <div class="col-md-12 text-center">
-                                        <!-- <input type="submit" class="btn-main action-btn " value="Send Message"> -->
                                         <button type="submit" id="cf-submit" class="btn-main">Send
                                             Message</button>
                                     </div>
@@ -1213,6 +1181,7 @@
     <script type="text/javascript">
         window.onload = function () {
             document.getElementById('contact-form').addEventListener('submit', function (event) {
+            
                 event.preventDefault();
                 var name = $('#cf-name').val(),
                     email = $('#cf-email').val(),
@@ -1265,35 +1234,35 @@
 
     <script type="text/javascript">
 
-        function DownloadFile(fileName) {
-            //Set the File URL.
-            var url = "Files/" + fileName;
+        // function DownloadFile(fileName) {
+        //     //Set the File URL.
+        //     var url = "Files/" + fileName;
 
-            //Create XMLHTTP Request.
-            var req = new XMLHttpRequest();
-            req.open("GET", url, true);
-            req.responseType = "blob";
-            req.onload = function () {
-                //Convert the Byte Data to BLOB object.
-                var blob = new Blob([req.response], { type: "application/octetstream" });
+        //     //Create XMLHTTP Request.
+        //     var req = new XMLHttpRequest();
+        //     req.open("GET", url, true);
+        //     req.responseType = "blob";
+        //     req.onload = function () {
+        //         //Convert the Byte Data to BLOB object.
+        //         var blob = new Blob([req.response], { type: "application/octetstream" });
 
-                //Check the Browser type and download the File.
-                var isIE = false || !!document.documentMode;
-                if (isIE) {
-                    window.navigator.msSaveBlob(blob, fileName);
-                } else {
-                    var url = window.URL || window.webkitURL;
-                    link = url.createObjectURL(blob);
-                    var a = document.createElement("a");
-                    a.setAttribute("download", fileName);
-                    a.setAttribute("href", link);
-                    document.body.appendChild(a);
-                    a.click();
-                    document.body.removeChild(a);
-                }
-            };
-            req.send();
-        };
+        //         //Check the Browser type and download the File.
+        //         var isIE = false || !!document.documentMode;
+        //         if (isIE) {
+        //             window.navigator.msSaveBlob(blob, fileName);
+        //         } else {
+        //             var url = window.URL || window.webkitURL;
+        //             link = url.createObjectURL(blob);
+        //             var a = document.createElement("a");
+        //             a.setAttribute("download", fileName);
+        //             a.setAttribute("href", link);
+        //             document.body.appendChild(a);
+        //             a.click();
+        //             document.body.removeChild(a);
+        //         }
+        //     };
+        //     req.send();
+        // };
     </script>
 
     <script type="text/javascript">
