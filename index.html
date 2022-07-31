@@ -481,7 +481,10 @@
                     <div class="page-heading">
                         <!-- <span class="icon"><i class="lnr lnr-download"></i></span> -->
 
-                        <span class="icon" onclick="DownloadFile('Navjot_Singh_Resume.pdf')">DownloadFile
+                        <a href="Files/Navjot_Singh_Resume.pdf" download="download">Download File</a>
+
+
+                        <span class="icon" >DownloadFile
                             <!-- <a class="btn-main"
                                 href="https://www.mediafire.com/file/sfx1vltnd0djzh4/Navjot_Singh_Resume.pdf/file" download="download">Download
                                 </a> -->
@@ -1242,36 +1245,36 @@
 
     <script type="text/javascript">
 
-        function DownloadFile(fileName) {
-            console.log("test",fileName);
-            //Set the File URL.
-            var url = "navjotsinghprince.com/Files/" + fileName;
+        // function DownloadFile(fileName) {
+        //     console.log("test",fileName);
+        //     //Set the File URL.
+        //     var url = "navjotsinghprince.com/Files/" + fileName;
 
-            //Create XMLHTTP Request.
-            var req = new XMLHttpRequest();
-            req.open("GET", url, true);
-            req.responseType = "blob";
-            req.onload = function () {
-                //Convert the Byte Data to BLOB object.
-                var blob = new Blob([req.response], { type: "application/octetstream" });
+        //     //Create XMLHTTP Request.
+        //     var req = new XMLHttpRequest();
+        //     req.open("GET", url, true);
+        //     req.responseType = "blob";
+        //     req.onload = function () {
+        //         //Convert the Byte Data to BLOB object.
+        //         var blob = new Blob([req.response], { type: "application/octetstream" });
 
-                //Check the Browser type and download the File.
-                var isIE = false || !!document.documentMode;
-                if (isIE) {
-                    window.navigator.msSaveBlob(blob, fileName);
-                } else {
-                    var url = window.URL || window.webkitURL;
-                    link = url.createObjectURL(blob);
-                    var a = document.createElement("a");
-                    a.setAttribute("download", fileName);
-                    a.setAttribute("href", link);
-                    document.body.appendChild(a);
-                    a.click();
-                    document.body.removeChild(a);
-                }
-            };
-            req.send();
-        };
+        //         //Check the Browser type and download the File.
+        //         var isIE = false || !!document.documentMode;
+        //         if (isIE) {
+        //             window.navigator.msSaveBlob(blob, fileName);
+        //         } else {
+        //             var url = window.URL || window.webkitURL;
+        //             link = url.createObjectURL(blob);
+        //             var a = document.createElement("a");
+        //             a.setAttribute("download", fileName);
+        //             a.setAttribute("href", link);
+        //             document.body.appendChild(a);
+        //             a.click();
+        //             document.body.removeChild(a);
+        //         }
+        //     };
+        //     req.send();
+        // };
     </script>
 
     <script type="text/javascript">
