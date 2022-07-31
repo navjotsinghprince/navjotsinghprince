@@ -253,21 +253,6 @@
                                 <h3 class="mb-20">Personal Information</h3>
                                 <ul id="about-info">
                                     <li><span class="title">Name</span><span class="value">Navjot Singh</span></li>
-                                    <!-- <li><span class="title" >Age</span><span id="myage"class="value"> -->
-
-                                    <!-- <script>
-                                    function getAge(dateString) {
-                                        var today = new Date();
-                                        var birthDate = new Date(dateString);
-                                        var age = today.getFullYear() - birthDate.getFullYear();
-                                        var m = today.getMonth() - birthDate.getMonth();
-                                        if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-                                            age--;
-                                        }
-                                        return age;
-                                    }
-                                    document.getElementById("myage").innerHTML =getAge("1997/05/26")+ " Years";
-                                    </script> -->
                                     </span></li>
                                     <li><span class="title">Residence</span><span class="value">Punjab, INDIA</span>
                                     </li>
@@ -480,19 +465,12 @@
                 <div class="section-container">
                     <div class="page-heading">
                         <!-- <span class="icon"><i class="lnr lnr-download"></i></span> -->
-
-                        <a href="Files/Navjot_Singh_Resume.pdf" download="download">Download File</a>
-
-
-                        <span class="icon" >DownloadFile
-                            <!-- <a class="btn-main"
-                                href="https://www.mediafire.com/file/sfx1vltnd0djzh4/Navjot_Singh_Resume.pdf/file" download="download">Download
-                                </a> -->
-                            </span>
+                        <span class="icon">
+                            <a target="_blank" class="btn-main" href="Files/Navjot_Singh_Resume.pdf"
+                                download="Navjot_Singh_Resume.pdf">Download</a>
+                        </span>
                         <h2>My Resume.</h2>
-                       
                     </div>
-
 
 
                     <!--Education & Projects Row Start-->
@@ -1241,75 +1219,6 @@
             });
         }
     </script>
-
-
-    <script type="text/javascript">
-
-        // function DownloadFile(fileName) {
-        //     console.log("test",fileName);
-        //     //Set the File URL.
-        //     var url = "navjotsinghprince.com/Files/" + fileName;
-
-        //     //Create XMLHTTP Request.
-        //     var req = new XMLHttpRequest();
-        //     req.open("GET", url, true);
-        //     req.responseType = "blob";
-        //     req.onload = function () {
-        //         //Convert the Byte Data to BLOB object.
-        //         var blob = new Blob([req.response], { type: "application/octetstream" });
-
-        //         //Check the Browser type and download the File.
-        //         var isIE = false || !!document.documentMode;
-        //         if (isIE) {
-        //             window.navigator.msSaveBlob(blob, fileName);
-        //         } else {
-        //             var url = window.URL || window.webkitURL;
-        //             link = url.createObjectURL(blob);
-        //             var a = document.createElement("a");
-        //             a.setAttribute("download", fileName);
-        //             a.setAttribute("href", link);
-        //             document.body.appendChild(a);
-        //             a.click();
-        //             document.body.removeChild(a);
-        //         }
-        //     };
-        //     req.send();
-        // };
-    </script>
-
-    <script type="text/javascript">
-        // function DownloadResume(fileName) {
-        //     //Set the File URL.
-        //     var url ="Files/" + fileName;
-
-        //     //Create XMLHTTP Request.
-        //     var req = new XMLHttpRequest();
-        //     req.open("GET", url, true);
-        //     req.responseType = "blob";
-        //     req.onload = function () {
-        //         //Convert the Byte Data to BLOB object.
-        //         var blob = new Blob([req.response], { type: "application/octetstream" });
-
-        //         //Check the Browser type and download the File.
-        //         var isIE = false || !!document.documentMode;
-        //         if (isIE) {
-        //             window.navigator.msSaveBlob(blob, fileName);
-        //         } else {
-        //             var url = window.URL || window.webkitURL;
-        //             link = url.createObjectURL(blob);
-        //             var a = document.createElement("a");
-        //             a.setAttribute("download", fileName);
-        //             a.setAttribute("href", link);
-        //             document.body.appendChild(a);
-        //             a.click();
-        //             document.body.removeChild(a);
-        //         }
-        //     };
-        //     req.send();
-        // };
-    </script>
-
-
 </body>
 
 </html>
