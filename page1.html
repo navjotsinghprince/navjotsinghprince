@@ -68,22 +68,6 @@
 
 <body>
   <div id="navjot">
-    <!--Preloader Start-->
-    <div class="preloader">
-      <div class="loader">
-        <!--Your Name-->
-        <h4>Navjot Singh</h4>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-    <!--Preloader End-->
-
     <div id="page">
       <!--Header Start-->
       <header>
@@ -155,7 +139,7 @@
               <!--Copyright Text-->
               <div class="copy">
                 <p id="copyright">
-                  <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+                  {{fullyear}}
                   &copy; Navjot Singh Prince <br />All Right Reserved.
                 </p>
               </div>
@@ -290,7 +274,7 @@
   <script src="js/plugins.min.js"></script>
   <!--Site Main JS-->
   <script src="js/main.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
 
   <script>
     var app = new Vue({
@@ -326,6 +310,12 @@
           "Practice, practice, practice.",
         ],
       }),
+
+      computed: {
+        fullyear() {
+          return new Date().getFullYear();
+        }
+      }
     });
   </script>
 </body>
