@@ -7,7 +7,7 @@
 - 📫 How to reach me: ...navjotsinghprince.com
 - 😄 Pronouns: ...hahahah
 - ⚡ Fun fact: ...woah
-- :coffee: [__Buy me a coffee! ]( https://ko-fi.com/princeferozepuria)
+- :coffee: [__Buy me a coffee!__]( https://ko-fi.com/princeferozepuria)
 
 
 <!--
