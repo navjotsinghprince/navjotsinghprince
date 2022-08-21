@@ -299,24 +299,6 @@ function contactFormSetup() {
                 }
             }
         });
-        if (required === 0) {
-            // $.ajax({
-            //     type: 'POST',
-            //     url: 'mail.php',
-            //     data: {
-            //         cf_name: name,
-            //         cf_email: email,
-            //         cf_message: message
-            //     },
-            //     success: function(data) {
-            //         $("#contact-form .input__field").val("");
-            //         showAlertBox(data.status, data.responseText);
-            //     },
-            //     error: function(data) {
-            //         showAlertBox(data.status, data.responseText);
-            //     }
-            // });
-        }
     });
 }
 
