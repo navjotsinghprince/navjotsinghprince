@@ -7,6 +7,8 @@
 - 📫 How to reach me: ...navjotsinghprince.com
 - 😄 Pronouns: ...hahahah
 - ⚡ Fun fact: ...woah
+- :coffee: Buy Me A Coffee! 
+
 
 <!--
 **navjotsinghprince/navjotsinghprince** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
