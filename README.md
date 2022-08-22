@@ -4,6 +4,8 @@
     <a href="https:/navjotsinghprince.com/"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"  width="28"></a>
 </h3>
 
+![Image Caption](./assets/prince-ferozepuria-snake.svg)
+
 ### Official Website:- https://navjotsinghprince.com
 - 🔭 I’m currently working on ... as a software development
 - 🌱 I’m currently learning ... new technologies
