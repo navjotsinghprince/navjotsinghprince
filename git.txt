@@ -1,0 +1,95 @@
+git tag v1.0.0
+git push --tag
+composer validate
+
+===============
+  ︻̷┻̿═━一 
+====Commands
+pwd == Show current working directory
+ls -al = Detailed info
+ls -R = Subdirectories
+ls -a = Hidden files
+ls -lha ==view permissions
+cd test =  go to test
+cd / = go to root
+touch file1.txt = create file
+cat file1.txt ==show content
+cat file1.txt file2.txt > output.txt  ==save the content of multiples files to one file
+mkdir 
+rmdir
+rm package-lock.json
+rm -rf node_modules
+mv file2.txt directory1  ==move file to directory1
+mv test1 directory1  ==move test1 directory to directory1
+head file1.txt ==first ten lines of the “file1.text” file:
+tail file1.txt ==last ten lines of the “file1.text” file:
+nano file1.txt
+uname -a === get the release number, version of Linux,
+wget https://download.virtualbox.org/virtualbox/6.1.26/VirtualBox-6.1.26-145957-Win.exe== download the content from the internet
+
+ sudo apt install [packagename]
+ sudo apt install vlc
+ sudo apt remove vlc
+ 
+ sudo apt-get update
+ sudo apt-get upgrade 
+ sudo apt-get install vlc
+ sudo apt-get remove vlc
+ sudo apt-get purge vlc
+ sudo apt-get autoremove
+ 
+ 
+ history
+ cat file1.txt | grep 20 == can search for a pattern
+ man cat = user mannual
+ ps = list of processes
+
+zip Files.zip Check.txt Test.txt Output.txt
+gzip file1.txt =convert your files to zip archive;
+gunzip file1.txt unzip 
+
+hostname
+ping youtube.com = check the connectivity to your server
+w = user details that are currently logged into the system:
+
+sudo useradd navjot == add another user to your system,
+sudo userdel navjot  ==delete another user to your system,
+passwd navjot ==change password
+
+dpkg --list == list package
+df -h  ==(display filesystem) command displays information about the disk space usage of all mounted filesystems.
+free =Displays the amount of free space available on the system.
+
+
+CTRL+ R == search history
+CTRL+ L == clear terminal
+uptime
+shutdown
+whereis zip
+exit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
