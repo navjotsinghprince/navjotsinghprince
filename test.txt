@@ -1,5 +1,5 @@
 
-About Me
+About Me.
 
 A Full Stack Developer with 5+ years of experience in developing enterprise applications. Currently working as a Team Lead & Senior Software Engineer at Red Hat.
 
