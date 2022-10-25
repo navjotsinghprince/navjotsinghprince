@@ -80,6 +80,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.6.1/dist/sweetalert2.all.min.js"></script> -->
 
 </head>
 
@@ -938,7 +939,6 @@
                 });
 
                 if (required === 0) {
-
                     // generate a five digit number for the contact_number variable
                     this.contact_number.value = Math.random() * 100000 | 0;
                     // these IDs from the previous steps
@@ -955,9 +955,55 @@
                         }, function (error) {
                             showAlertBox(401, "Something went wrong");
                         });
-                }
-            });
-        }
+
+                        
+                    // Swal.fire({
+                    //     title: 'Email Sending...',
+                    //     html: 'Please wait...',
+                    //     allowEscapeKey: false,
+                    //     allowOutsideClick: false,
+                    //     timer: 2000,
+                    //     didOpen: () => {
+                    //         Swal.showLoading();
+                    //     }
+                    // }).then((result) => {
+                    //     console.log(result);
+                    //     //these IDs from the previous steps
+                    //     emailjs.sendForm('service_f7am48g', 'template_04tj2yl', this)
+                    //         .then(function () {
+                    //             console.log("test", result);
+                    //             $("#contact-form .input__field").val("");
+                    //             // swal({
+                    //             //     title: "Email Sent",
+                    //             //     text: "I have received your message and will respond to you soon.",
+                    //             //     icon: "success",
+                    //             //     button: "Close",
+                    //             // });
+                    //             //showAlertBox(200, "I have received your message and will respond to you soon.");
+                    //         }, function (error) {
+                    //             showAlertBox(401, "Something went wrong");
+                    //         });
+                    //     /* Read more about handling dismissals below */
+                    //     if (result.dismiss === 'timer') {
+                    //         Swal.fire({
+                    //             timer: 3000,
+                    //             type: 'success',
+                    //             showConfirmButton: false,
+                    //             title: "Email Sent",
+                    //             text: "I have received your message and will respond to you soon as possible.",
+                    //             icon: "success",
+                    //             showCancelButton: true,
+                    //             cancelButtonText: "Close"
+                    //         })
+                    //     }
+                    // });
+
+
+
+
+                } //required 
+            }); //contact form event listener
+        } //window onload
     </script>
 </body>
 
