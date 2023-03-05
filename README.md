@@ -4,6 +4,8 @@
     <a href="https:/navjotsinghprince.com/"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"  width="28"></a>
 </h4>
 
+![Image Caption](./assets/prince-ferozepuria-snake.svg)
+
 Hey there, I'm Navjot Singh!
 
  A Full Stack Developer with experience in developing spa applications. I've been building intuitive and functional SPA applications and great user experiences projects that are being used by many people.
