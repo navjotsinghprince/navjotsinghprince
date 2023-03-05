@@ -1,18 +1,20 @@
 
-<h3>
+<h4>
   Official Website : <a href="https://navjotsinghprince.com/" target="_blank">navjotsinghprince.com</a>
     <a href="https:/navjotsinghprince.com/"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"  width="28"></a>
-</h3>
+</h4>
 
-![Image Caption](./assets/prince-ferozepuria-snake.svg)
-- 🔭 I’m currently working on ... as a software development
-- 🌱 I’m currently learning ... new technologies
-- 👯 I’m looking to collaborate on ... code
-- 🤔 I’m looking for help with ...developers
-- 💬 Ask me about ...software engineer
-- 📫 How to reach me: ...navjotsinghprince.com
-- 😄 Pronouns: ...hahahah
-- ⚡ Fun fact: ...woah
+Hey there, I'm Navjot Singh!
+
+ A Full Stack Developer with experience in developing spa applications. I've been building intuitive and functional SPA applications and great user experiences projects that are being used by many people.
+
+I have hands-on experience in working on several projects that use PHP, Laravel, Vue, Databases etc. Most of my projects are released as open-source on GitHub. You can find more details about my projects in the portfolio section of this website or my Github profile. In the long term I want to become an innovative entrepreneur and create exciting opportunities in the field of IT.
+
+Got an offer for me? Reach me at : info@navjotsinghprince.com 
+
+Thank you for reaching!
+
+—Navjot Singh
 - :coffee: [__Buy me a coffee!__]( https://ko-fi.com/princeferozepuria)
 
 
