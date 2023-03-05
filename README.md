@@ -14,7 +14,7 @@ I have hands-on experience in working on several projects that use PHP, Laravel,
 
 Got an offer for me? Reach me at : info@navjotsinghprince.com 
 
-Thank you for reaching!
+Thank You For Visiting Us
 
 —Navjot Singh
 - :coffee: [__Buy me a coffee!__]( https://ko-fi.com/princeferozepuria)
