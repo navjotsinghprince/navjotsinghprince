@@ -197,7 +197,7 @@
                     <p class="cd-headline clip is-full-width">
                         <!-- <span>I am a </span> -->
                         <span class="cd-words-wrapper">
-                            <b class="is-visible">Software Developer</b>
+                            <b class="is-visible" lang="de">Software Developer</b>
                             <b>High-Quality Software Solutions</b>
                             <b>Call Us Now- (+91) 85913 73660</b>
 
@@ -1003,6 +1003,38 @@
             }); //contact form event listener
         } //window onload
     </script>
+
+
+<!-- Messenger Chat plugin Code -->
+<div id="fb-root"></div>
+
+<!-- Your Chat plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "100680499739928");
+  chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v14.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
 </body>
 
 </html>
