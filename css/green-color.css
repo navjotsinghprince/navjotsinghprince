@@ -63,6 +63,9 @@ ul.experience .content h5, ul.education .content h5 {
 .contact-info .info-item .icon {
   color: #6ac045; }
 
+  .contact-info .info-item  h5:hover {
+    color: #6ac045; }
+
 blockquote {
   border-color: #6ac045 !important; }
 
