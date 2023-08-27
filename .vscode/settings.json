@@ -1,12 +1,19 @@
+//#192122 Color For more customizations
 {
-    "workbench.preferredLightColorTheme": "Base16 Dark Eighties",
+    "files.autoSave": "afterDelay",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Base16 Dark Eighties",
     "workbench.colorCustomizations": {
-        "sideBar.background": "#222a2b",
-        "editor.background": "#222a2b",
-        "titleBar.activeBackground": "#222a2b",
-        "editorRuler.foreground": "#222a2b",
-        "editorIndentGuide.background": "#222a2b",
-        "activityBarBadge.background": "#222a2b",
-        "sideBarTitle.foreground": "#222a2b"
+    "sideBar.background": "#222a2b",
+    "editor.background": "#222a2b",
+    "titleBar.activeBackground": "#222a2b",
+    "editorRuler.foreground": "#222a2b",
+    "editorIndentGuide.background1": "#222a2b",
+    "activityBarBadge.background": "#222a2b",
+    "sideBarTitle.foreground": "#222a2b",
+    "editorLineNumber.foreground": "#45a5ac",
+    "editorGutter.background": "#222a2b"
     }
 }
