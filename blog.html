@@ -64,6 +64,15 @@
 
   <script src="https://use.fontawesome.com/3de01ad7d8.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+
+  <style>
+     #link{
+      color: #00a3e1;
+     }
+    #link:hover {
+      color: black;
+    }
+  </style>
 </head>
 
 <body>
@@ -119,20 +128,21 @@
               <!--Social Links-->
               <ul class="social">
                 <li>
-                  <a href="https://github.com/navjotsinghprince"><i class="fab fa-github"></i></a>
+                  <a href="https://github.com/navjotsinghprince" target="_blank"><i class="fab fa-github"></i></a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/navjot-singh-82172a18a/"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="https://www.linkedin.com/in/navjot-singh-82172a18a/" target="_blank"><i
+                      class="fab fa-linkedin-in"></i></a>
                 </li>
                 <li>
-                  <a href="https://codepen.io/NavjotSinghPrince"><i class="fab fab fa-codepen"></i></a>
+                  <a href="https://codepen.io/NavjotSinghPrince" target="_blank"><i class="fab fab fa-codepen"></i></a>
                 </li>
                 <li>
-                  <a href="https://stackoverflow.com/users/12120513/navjotsinghprince"><i
+                  <a href="https://stackoverflow.com/users/12120513/navjotsinghprince" target="_blank"><i
                       class="fab fa-stack-overflow"></i></a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/Princeferozepur"><i class="fab fa-twitter"></i></a>
+                  <a href="https://twitter.com/Princeferozepur" target="_blank"><i class="fab fa-twitter"></i></a>
                 </li>
               </ul>
 
@@ -162,107 +172,33 @@
               <div class="blog-heading col-md-8 offset-md-2">
                 <span class="cat">{{title}}</span>
                 <h1>{{desc}}</h1>
-                <span class="blog-date">{{new Date().toLocaleString()}}</span>
+                <span class="blog-date">January 21, 2020</span>
               </div>
               <!--Blog Heading Start-->
 
               <!--Blog Content Start-->
               <div class="blog-content col-md-10 offset-md-1">
                 <h4>OVERVIEW</h4>
-                <b v-for="(value,index) in blog" :key="index">{{value}} <br /><br />
-                </b>
+                <p v-for="(value,index) in blog" :key="index">{{value}}
+                </p>
 
                 <blockquote>
-                  <b>TO BECOME A SKILLED CODER, FOLLOW THESE PROFESSIONAL STEPS:</b><br />
+                  <b>PROFESSIONAL SOURCE LINKS:</b><br />
                   <ol>
-                    <li v-for="(value,index) in how_to_code" :key="index">
-                      {{index+1}}:-{{ value}}
+                    <li v-for="(value,index) in links" :key="index">
+                      <a id="link" :href="value.url" target="_blank"> {{index+1}}: {{ value.title}} &#x1F680;</a>
                     </li>
                   </ol>
                 </blockquote>
+              
+
+                <p>Join us on this journey to advance your skills, boost your career, and become a true trailblazer in
+                  the IT landscape. Unleash your potential with "Be On The Top Of Development"</p>
+                <b>Thank You For Your Valuable Time.</b><br>
+                <b>Warm Regards</b><br>
+                <b>Navjot Singh</b>
               </div>
-              <!--Blog Content End-->
 
-              <!--Blog Comments Start-->
-              <!-- <div class="blog-comments col-md-8 offset-md-2">
-                <h4 class="mb-40">Post Comments</h4>
-                <ul class="comment-list">
-                  <li class="comment">
-                    <div class="author-img">
-                      <img src="img/blog/authors/author-1.jpg" alt="" />
-                    </div>
-                    <div class="comment-text">
-                      <span class="reply"><a href="#">Reply</a></span>
-                      <h6 class="author">Eva</h6>
-                      <span class="date">January 21, 2020 at 2:20 pm</span>
-                      <p>awesome...</p>
-                    </div>
-                  </li>
-
-                  <li class="comment">
-                    <div class="author-img">
-                      <img src="img/blog/authors/author-2.jpg" alt="" />
-                    </div>
-                    <div class="comment-text">
-                      <span class="reply"><a href="#">Reply</a></span>
-                      <h6 class="author">Olivia</h6>
-                      <span class="date">January 22, 2020 at 5:39 am</span>
-                      <p>nice post...thank you</p>
-                    </div>
-                  </li>
-
-                  <li class="comment">
-                    <div class="author-img">
-                      <img src="img/blog/authors/author-3.jpg" alt="" />
-                    </div>
-                    <div class="comment-text">
-                      <span class="reply"><a href="#">Reply</a></span>
-                      <h6 class="author">bob</h6>
-                      <span class="date">January 22, 2020 at 11:00 pm</span>
-                      <p>great</p>
-                    </div>
-                  </li>
-                </ul>
-              </div> -->
-              <!--Blog Comments End-->
-
-
-              <!-- Leave A Reply Section -->
-              <!-- <div class="comment-form col-lg-8 offset-lg-2">
-                <h4 class="mt-40 mb-40">Leave A Reply</h4>
-                <form action="#">
-                  <div class="row"> -->
-                    <!--Name Field-->
-                    <!-- <div class="col-md-6 mb-50">
-                      <span class="input">
-                        <input class="input__field" type="text" id="name" name="name" required />
-                        <label class="input__label" for="name">Name</label>
-                      </span>
-                    </div> -->
-
-                    <!--Email Field-->
-                    <!-- <div class="col-md-6 mb-50">
-                      <span class="input">
-                        <input class="input__field" type="text" id="email" name="email" required />
-                        <label class="input__label" for="email">Email</label>
-                      </span>
-                    </div> -->
-
-                    <!--Message Box-->
-                    <!-- <div class="col-md-12 mb-30">
-                      <span class="input">
-                        <textarea class="input__field" id="message" name="message" rows="5" required></textarea>
-                        <label class="input__label" for="message">Your Comment</label>
-                      </span>
-                    </div> -->
-
-                    <!--Submit Button-->
-                    <!-- <div class="col-md-12">
-                      <button class="btn-main">Post Comment</button>
-                    </div> -->
-                  <!-- </div>
-                </form>
-              </div> -->
             </div>
           </div>
         </div>
@@ -282,36 +218,26 @@
     var app = new Vue({
       el: "#navjot",
       data: () => ({
-        title: "DEVELOPMENT",
-        desc: "Best Way To Code",
+        title: "Advanced Techniques for Developers",
+        desc: "Be On The Top Of Development",
         blog: {
           content1:
-            "As technology becomes more and more accessible, the need for programmers is always increasing. Coding is a skill learned and perfected over time, but everyone has to start somewhere. There are a variety of languages that are perfect for beginners regardless of the field that you're interested   in. (Ex. JavaScript, Etc.) (JavaScript is quite advanced, so  start with HTML or CSS)",
+            'In the ever-evolving realm of information technology, developers are the architects of the digital future. Our blog, "Be On The Top Of Development," is your essential guide to mastering advanced techniques and staying at the forefront of innovation.',
           content2:
-            "Web development is a field that is expanding with the introduction of new technologies, such as apps on smartphones and tablets. The demand for people who are familiar with creating new apps and programs is very high.",
+            "Explore cutting-edge topics, from machine learning and artificial intelligence to cybersecurity and blockchain development. Dive into in-depth tutorials, expert insights, and real-world case studies that showcase best practices in software engineering and application development.",
 
           content3:
-            "If you’re interested in becoming a web developer, hone your computer programming skills and master programming languages such as HTML or Python. Because web design is a demanding career, work on expanding your interpersonal skills by learning to deal with difficult clients. For schooling, choose courses in programming, web design, database management, networking, and mathematics. Then, enroll in internships to gain experience in your field. Continue reading for information on the most popular program languages required by employers",
+            "Stay ahead of the curve as we delve into DevOps methodologies, containerization, cloud computing, and the latest programming languages. Whether you're a seasoned professional or an aspiring developer, our blog is your go-to resource for the power of technology to build a smarter, more connected world.",
         },
 
-        how_to_code: [
-          "Choose a linux Operating System ",
-          "Pick a language if you are interested web development like html5,css3,javascript etc.",
-          "Find free resources online for the language you choose.",
-          "Download a good text editor.",
-          "Download any necessary compilers like C,C++ and koala For Sass.",
-          "Start your first project like basic html5 webpage,basic database and form functions with PHP, simple programs with any of the compiler languages.",
-          "Comment all of your code for future understanding.",
-          "Pick apart other programs or web projects like view source code of websites.",
-          "Expand your knowledge like take classes.",
-          "Learn more languages like php,python,sql.",
-          "Be patient.",
-          "Learn to work with others.",
-          "Get a job where you can practice your coding skills.",
-          "Connect with other programmers. like StackOverflow.",
-          "Use code related online/Offline tools,softwares like Git.",
-          "Practice, practice, practice.",
+        links: [
+          {
+            title: "Click Here",
+            url: "https://github.com/navjotsinghprince"
+          }
         ],
+
+        footer: '"'
       }),
 
       computed: {
@@ -321,7 +247,7 @@
       }
     });
   </script>
+
 </body>
 
 </html>
-
