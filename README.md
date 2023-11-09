@@ -17,7 +17,8 @@ Got an offer for me? Reach me at : info@navjotsinghprince.com
 Thank You For Visiting Us
 
 —Navjot Singh
-- :coffee: [__Buy me a coffee!__]( https://ko-fi.com/princeferozepuria)
+
+ :coffee: [__Buy me a coffee!__]( https://ko-fi.com/princeferozepuria)
 
 
 <!--
