@@ -18,7 +18,7 @@ Thank You For Visiting Us
 
 <!--![—Navjot Singh](https://navjotsinghprince.com/img/signature-black.png)-->
 
-<img src="https://navjotsinghprince.com/img/signature-black.png" alt="Navjot Singh" height="70">
+<img src="https://navjotsinghprince.com/img/signature-black.png" alt="Navjot Singh" height="55">
 
  :coffee: [__Buy me a coffee!__]( https://ko-fi.com/princeferozepuria)
 
