@@ -16,7 +16,9 @@ Got an offer for me? Reach me at : info@navjotsinghprince.com
 
 Thank You For Visiting Us
 
-—Navjot Singh
+<!--![—Navjot Singh](https://navjotsinghprince.com/img/signature-black.png)-->
+
+<img src="https://navjotsinghprince.com/img/signature-black.png" alt="Navjot Singh" height="70">
 
  :coffee: [__Buy me a coffee!__]( https://ko-fi.com/princeferozepuria)
 
