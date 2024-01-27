@@ -855,8 +855,10 @@
 
                                     <!--Submit Button-->
                                     <div class="col-md-12 text-center">
-                                        <button type="submit" id="cf-submit" class="btn-main">Send
-                                            Message</button>
+                                        <button type="submit" id="cf-submit" class="btn-main">
+                                            <span id="loader" class="loader"></span>
+                                            <span id="btn-text">Send Message</span>
+                                        </button>
                                     </div>
 
 
@@ -866,6 +868,7 @@
 
                         </div>
                     </div>
+
 
                     <!--Contact Info Row Start-->
                     <div class="row contact-info mb-70">
@@ -972,6 +975,41 @@
                 animation: octocat-wave 560ms ease-in-out
             }
         }
+
+
+        /* Styles for the loader*/
+        .loader {
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            border-left-color: white;
+            border-radius: 50%;
+            width: 15px;
+            height: 15px;
+            animation: spin 1s linear infinite;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Add styles to hide the loader by default */
+        .loader {
+            display: none;
+        }
+
+        /* Add styles to show the loader when the button is in the loading state */
+        .btn-main.loading #loader {
+            display: inline-block;
+        }
+
+        /* Dim the button while loading */
+        .btn-main.loading #btn-text {
+            opacity: 0.6;
+        }
     </style>
     <script type="text/javascript">
             (function () {
@@ -990,7 +1028,7 @@
 
 
                 $('.cf-validate', this).each(function () {
-                    if ($(this).val() == '') {
+                    if ($(this).val() === '') {
                         $(this).addClass('cf-error');
                         required += 1;
                     } else {
@@ -1004,10 +1042,14 @@
                 });
 
                 if (required === 0) {
+                    var button = document.getElementById('cf-submit');
+                    button.classList.add('loading');
+
                     // generate a five digit number for the contact_number variable
                     this.contact_number.value = Math.random() * 100000 | 0;
                     emailjs.sendForm('service_f7am48g', 'template_04tj2yl', this)
                         .then(function () {
+                            button.classList.remove('loading');
                             $("#contact-form .input__field").val("");
                             swal({
                                 title: "Email Sent",
@@ -1016,6 +1058,7 @@
                                 button: "Close",
                             });
                         }, function (error) {
+                            button.classList.remove('loading');
                             showAlertBox(401, "Something went wrong");
                         });
 
