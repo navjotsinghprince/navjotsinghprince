@@ -50,25 +50,24 @@
   <!--Favicons-->
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122650090-3"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-D822XQK2KQ"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-    gtag("config", "UA-122650090-3");
+    gtag('config', 'G-D822XQK2KQ');
   </script>
 
   <script src="https://use.fontawesome.com/3de01ad7d8.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
 
   <style>
-     #link{
+    #link {
       color: #00a3e1;
-     }
+    }
+
     #link:hover {
       color: black;
     }
@@ -186,11 +185,11 @@
                   <b>PROFESSIONAL SOURCE LINKS:</b><br />
                   <ol>
                     <li v-for="(value,index) in links" :key="index">
-                      <a id="link" :href="value.url" target="_blank"> {{index+1}}: {{ value.title}} &#x1F680;</a>
+                      <a id="link" :href="value.url" target="_blank"> {{index+1}}. {{ value.title}} &#x1F680;</a>
                     </li>
                   </ol>
                 </blockquote>
-              
+
 
                 <p>Join us on this journey to advance your skills, boost your career, and become a true trailblazer in
                   the IT landscape. Unleash your potential with "Be On The Top Of Development"</p>
@@ -234,7 +233,7 @@
           {
             title: "Click Here",
             url: "https://github.com/navjotsinghprince"
-          }
+          },
         ],
 
         footer: '"'
