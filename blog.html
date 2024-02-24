@@ -182,17 +182,17 @@
                 </p>
 
                 <blockquote>
-                  <b>PROFESSIONAL SOURCE LINKS:</b><br />
+                  <b>Links Here:</b>
                   <ol>
                     <li v-for="(value,index) in links" :key="index">
-                      <a id="link" :href="value.url" target="_blank"> {{index+1}}. {{ value.title}} &#x1F680;</a>
+                      <a id="link" :href="value.url" target="_blank"> {{index+1}}. {{ value.title}}</a>
                     </li>
                   </ol>
                 </blockquote>
 
 
-                <p>Join us on this journey to advance your skills, boost your career, and become a true trailblazer in
-                  the IT landscape. Unleash your potential with "Be On The Top Of Development"</p>
+                <p>Stay tuned as we delve deeper into each of these areas and highlight some of the most valuable
+                  repositories that can help you Be On The Top Of Development! 🚀</p>
                 <b>Thank You For Your Valuable Time.</b><br>
                 <b>Warm Regards</b><br>
                 <b>Navjot Singh</b>
@@ -217,26 +217,82 @@
     var app = new Vue({
       el: "#navjot",
       data: () => ({
-        title: "Advanced Techniques for Developers",
+        title: "Enhance your development skills",
         desc: "Be On The Top Of Development",
         blog: {
           content1:
-            'In the ever-evolving realm of information technology, developers are the architects of the digital future. Our blog, "Be On The Top Of Development," is your essential guide to mastering advanced techniques and staying at the forefront of innovation.',
+            'In the rapidly evolving world of technology, staying ahead of the curve is essential. Keeping up with the latest trends, tools, and techniques can make all the difference in your journey as a developer.',
           content2:
-            "Explore cutting-edge topics, from machine learning and artificial intelligence to cybersecurity and blockchain development. Dive into in-depth tutorials, expert insights, and real-world case studies that showcase best practices in software engineering and application development.",
-
+            "In this blog, we've curated a list of GitHub repositories that are tailored to specific tasks and designed to enhance your development skills. These repositories cover a wide range of topics, from mastering programming languages to diving deep into specific frameworks and libraries.",
           content3:
-            "Stay ahead of the curve as we delve into DevOps methodologies, containerization, cloud computing, and the latest programming languages. Whether you're a seasoned professional or an aspiring developer, our blog is your go-to resource for the power of technology to build a smarter, more connected world.",
+            "Whether you're a seasoned professional or an aspiring developer, our blog is your go-to resource for the power of technology to build a smarter, more connected world.",
         },
-
         links: [
           {
-            title: "Click Here",
-            url: "https://github.com/navjotsinghprince"
+            title: "C++ OOPS Programming",
+            url: "https://github.com/navjotsinghprince/C-PLUS-PLUS-OOPS-PROGRAMMING"
+          },
+          {
+            title: "Data Structures and Algorithms",
+            url: "https://github.com/navjotsinghprince/Data-Structures"
+          },
+          {
+            title: "Bootstrap UI Web Template",
+            url: "https://github.com/navjotsinghprince/Bootstrap_Web_Template"
+          },
+          {
+            title: "Car Racing Game Live [Javascript]",
+            url: "https://github.com/navjotsinghprince/Car-Racer-Game"
+          },
+          {
+            title: "The PHP Professional [A to Z]",
+            url: "https://github.com/navjotsinghprince/The-PHP-Professional"
+          },
+          {
+            title: "Login Register System [PHP]",
+            url: "https://github.com/navjotsinghprince/Login-Register-System"
+          },
+          {
+            title: "CRUD Basic [PHP]",
+            url: "https://github.com/navjotsinghprince/Crud"
+          },
+          {
+            title: "CRUD AJAX Rest API [PHP]",
+            url: "https://github.com/navjotsinghprince/CRUD-REST-API"
+          },
+          {
+            title: "Image Upload System [PHP]",
+            url: "https://github.com/navjotsinghprince/Image-Upload-System"
+          },
+          {
+            title: "Book Record Management System",
+            url: "https://github.com/navjotsinghprince/Book_Record_Management_System"
+          },
+          {
+            title: "News Site CMS Project",
+            url: "https://github.com/navjotsinghprince/News-Site-CMS"
+          },
+          {
+            title: "Laravel Passport UUID Implementation",
+            url: "https://github.com/navjotsinghprince/laravel-passport-uuid"
+          },
+          {
+            title: "Laravel Sanctum UUID Implementation",
+            url: "https://github.com/navjotsinghprince/laravel-sanctum-uuid"
+          },
+          {
+            title: "HTTP Response Composer Package",
+            url: "https://github.com/navjotsinghprince/http-response"
+          },
+          {
+            title: "The Dart Professional",
+            url: "https://github.com/navjotsinghprince/The-Dart-Professional"
+          },
+          {
+            title: "Useful Artisan Git Linux Commands",
+            url: "https://github.com/navjotsinghprince/cmd"
           },
         ],
-
-        footer: '"'
       }),
 
       computed: {
