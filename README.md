@@ -20,6 +20,8 @@ Thank You For Visiting Us
 
 <img src="https://navjotsinghprince.com/img/signature-black.png" alt="Navjot Singh" height="55">
 
+[![My Skills](https://skills.thijs.gg/icons?i=html,css,js,vue,vuetify,php,laravel,mysql,git,ubuntu)](https://skills.thijs.gg)
+
  :coffee: [__Buy me a coffee!__]( https://ko-fi.com/princeferozepuria)
 
 
