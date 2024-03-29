@@ -12,7 +12,7 @@ Laravel is where I shine!<br>
 Building robust applications that are efficient, scalable, and maintainable.<br>
 I'm highly proficient in Laravel ,and I use tools like Vue.js, PHP, JavaScript, SQL, and more.
 
-🚀 API development.<br>
+🚀 Project APIs development.<br>
 🚀 Integrating third-party APIs and services.<br>
 🚀 Laravel / PHP / Vue.js / Vuetify /  MySQL / S3 Cloud.<br>
 🚀 Version control tools such as Git.<br>
