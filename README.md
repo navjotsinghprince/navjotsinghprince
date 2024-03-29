@@ -23,7 +23,7 @@ I'm highly proficient in Laravel ,and I use tools like Vue.js, PHP, JavaScript, 
 I've been building intuitive and functional SPA applications and great user experiences projects that are being used by many people.
 
 I have hands-on experience in working on several projects that use PHP, Laravel, Vue, Databases etc.<br> 
-Most of my projects are released as open-source on GitHub. You can find more details about my projects in the portfolio section of this website or my Github profile. <br>
+Most of my projects are released as open-source on GitHub. You can find more details about my projects in the portfolio section of my website or my Github profile. <br>
 In the long term I want to become an innovative entrepreneur and create exciting opportunities in the field of IT.<br>
 
 Got an offer for me? Reach me at : info@navjotsinghprince.com 
