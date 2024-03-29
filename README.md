@@ -14,7 +14,7 @@ I have hands-on experience in working on several projects that use PHP, Laravel,
 
 Got an offer for me? Reach me at : info@navjotsinghprince.com 
 
-Thank You For Visiting Us
+Thanks For Visit
 
 <!--![—Navjot Singh](https://navjotsinghprince.com/img/signature-black.png)-->
 
@@ -22,8 +22,9 @@ Thank You For Visiting Us
 
 [![My Skills](https://skills.thijs.gg/icons?i=html,css,js,vue,vuetify,php,laravel,mysql,git,ubuntu)](https://skills.thijs.gg)
 
- :coffee: [__Buy me a coffee!__]( https://ko-fi.com/princeferozepuria)
-
+<a href="https://ko-fi.com/princeferozepuria" target="_blank">
+<img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" >
+</a>
 
 <!--
 **navjotsinghprince/navjotsinghprince** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
