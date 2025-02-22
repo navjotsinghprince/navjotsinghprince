@@ -62,7 +62,9 @@
 
   <script src="https://use.fontawesome.com/3de01ad7d8.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
     #link {
       color: #00a3e1;
@@ -141,7 +143,8 @@
                       class="fab fa-stack-overflow"></i></a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/Princeferozepur" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a href="https://twitter.com/Princeferozepur" target="_blank"><i
+                      class="fa-brands fa-x-twitter"></i></a>
                 </li>
               </ul>
 
@@ -163,13 +166,13 @@
       <div id="main" class="site-main">
         <div class="blog-page">
           <div class="blog-image">
-            <img src="img/blog/.jpg" alt="" />
+            <!-- <img src="img/blog/blog-page-img.jpg" alt="" /> -->
           </div>
           <div class="blog-container">
             <div class="row">
               <!--Blog Heading Start-->
-              <div class="blog-heading col-md-8 offset-md-2">
-                <span class="cat">{{title}blog-page-img}</span>
+              <div class="blog-heading col-md-8 offset-md-2 mt-4">
+
                 <h1>{{desc}}</h1>
                 <span class="blog-date">January 21, 2020</span>
               </div>
@@ -177,7 +180,8 @@
 
               <!--Blog Content Start-->
               <div class="blog-content col-md-10 offset-md-1">
-                <h4>OVERVIEW</h4>
+                <h4 class="mb-2 font-weight-bold">OVERVIEW</h4>
+
                 <p v-for="(value,index) in blog" :key="index">{{value}}
                 </p>
 
@@ -221,11 +225,11 @@
         desc: "Be On The Top Of Development",
         blog: {
           content1:
-            'In the rapidly evolving world of technology, staying ahead of the curve is essential. Keeping up with the latest trends, tools, and techniques can make all the difference in your journey as a developer.',
+            'Technology is changing fast, and staying updated is important for every developer. Learning new tools and techniques can help you grow and improve.',
           content2:
-            "In this blog, we've curated a list of GitHub repositories that are tailored to specific tasks and designed to enhance your development skills. These repositories cover a wide range of topics, from mastering programming languages to diving deep into specific frameworks and libraries.",
+            "In this blog, we have listed some useful GitHub repositories that can help you with different tasks and improve your coding skills. These cover many topics, from learning programming languages to exploring popular frameworks and libraries.",
           content3:
-            "Whether you're a seasoned professional or an aspiring developer, our blog is your go-to resource for the power of technology to build a smarter, more connected world.",
+            "Whether you are an experienced developer or just starting out, this blog will help you use technology to build a smarter and more connected world.",
         },
         links: [
           {
@@ -284,10 +288,7 @@
             title: "HTTP Response Composer Package",
             url: "https://github.com/navjotsinghprince/http-response"
           },
-          {
-            title: "The Dart Professional",
-            url: "https://github.com/navjotsinghprince/The-Dart-Professional"
-          },
+
           {
             title: "Useful Artisan Git Linux Commands",
             url: "https://github.com/navjotsinghprince/cmd"
