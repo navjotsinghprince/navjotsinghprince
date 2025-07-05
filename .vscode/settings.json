@@ -6,8 +6,8 @@
     "workbench.startupEditor": "none",
     "workbench.colorTheme": "Base16 Dark Eighties",
     "workbench.colorCustomizations": {
-    "sideBar.background": "#222a2b",
-    "editor.background": "#222a2b",
+    "sideBar.background": "#1e2525",
+    "editor.background": "#1e2525",
     "titleBar.activeBackground": "#222a2b",
     "editorRuler.foreground": "#222a2b",
     "editorIndentGuide.background1": "#222a2b",
