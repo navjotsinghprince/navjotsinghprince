@@ -236,23 +236,25 @@
 			email = $('#contactForm #email').val(),
 			phone = $('#contactForm #phone').val(),
 			message = $('#contactForm #message').val();
-		  console.log(fname, lname, email, phone, message);
+		console.log(fname, lname, email, phone, message);
 
 		(function () {
 			emailjs.init('user_O16GDlk4DjbOdQqy1oImm');
 		})();
 
 		// generate a five digit number for the contact_number variable
-		form.contact_number.value = Math.random() * 100000 | 0;
 		emailjs.sendForm('service_f7am48g', 'template_04tj2yl', form)
 			.then(function () {
 				// button.classList.remove('loading');
 				formSuccess();
-				swal({
-					title: "Email Sent",
-					text: "I have received your message and will respond to you soon.",
-					icon: "success",
-					button: "Close",
+				Swal.fire({
+					icon: 'success',
+					iconColor: "#366a5a",
+					title: 'Message Received',
+					text: 'Thank you! Your message has been successfully submitted.',
+					confirmButtonText: 'Close',
+					confirmButtonColor: "#163031",
+					timer: 4000
 				});
 			}, function (error) {
 				submitMSG(false, "Something went wrong");
