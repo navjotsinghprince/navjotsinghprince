@@ -236,17 +236,18 @@
 			email = $('#contactForm #email').val(),
 			phone = $('#contactForm #phone').val(),
 			message = $('#contactForm #message').val();
-		console.log(fname, lname, email, phone, message);
+
+		var $span = $('button[type="submit"] span', form);
 
 		(function () {
 			emailjs.init('user_O16GDlk4DjbOdQqy1oImm');
 		})();
 
-		// generate a five digit number for the contact_number variable
+		$span.addClass('spinner-border');
 		emailjs.sendForm('service_f7am48g', 'template_04tj2yl', form)
 			.then(function () {
-				// button.classList.remove('loading');
 				formSuccess();
+				$span.removeClass('spinner-border');
 				Swal.fire({
 					icon: 'success',
 					iconColor: "#366a5a",
@@ -257,8 +258,8 @@
 					timer: 4000
 				});
 			}, function (error) {
+				$span.removeClass('spinner-border');
 				submitMSG(false, "Something went wrong");
-				// button.classList.remove('loading');
 			});
 
 		/* Ajax call to submit form */
@@ -288,6 +289,9 @@
 			var msgClasses = "h4 text-danger";
 		}
 		$("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
+		// setTimeout(() => {
+		// 	$("#msgSubmit").removeClass(msgClasses).text("");
+		// }, 3000);
 	}
 	/* Contact form validation end */
 
