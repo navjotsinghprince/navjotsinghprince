@@ -37,6 +37,9 @@
     <link href="css/custom.css" rel="stylesheet" media="screen">
 
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> -->
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 </head>
 
 <body>
@@ -1826,28 +1829,33 @@
                         <p class="wow fadeInUp">Fill out the form below to connect with me. I'll get back to you soon to
                             discuss your project or answer any questions.</p>
 
-                        <form id="contactForm" action="#" method="POST" data-toggle="validator" class="wow fadeInUp"
-                            data-wow-delay="0.2s">
+                        <form id="contactForm" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.2s">
                             <div class="row">
+                                <input type="hidden" name="contact_number">
+
                                 <div class="form-group col-md-6 mb-4">
+                                    <label for="fname" class="form-label">First name</label>
                                     <input type="text" name="fname" class="form-control" id="fname"
-                                        placeholder="First Name" required>
+                                        placeholder="Enter first name" required>
                                     <div class="help-block with-errors"></div>
                                 </div>
 
                                 <div class="form-group col-md-6 mb-4">
+                                    <label for="lname" class="form-label">Last name</label>
                                     <input type="text" name="lname" class="form-control" id="lname"
-                                        placeholder="Last Name" required>
+                                        placeholder="Enter last name" required>
                                     <div class="help-block with-errors"></div>
                                 </div>
 
                                 <div class="form-group col-md-6 mb-4">
+                                    <label for="email" class="form-label">Email</label>
                                     <input type="email" name="email" class="form-control" id="email" placeholder="Email"
                                         required>
                                     <div class="help-block with-errors"></div>
                                 </div>
 
                                 <div class="form-group col-md-6 mb-4">
+                                    <label for="phone" class="form-label">Phone</label>
                                     <input type="text" name="phone" class="form-control" id="phone"
                                         placeholder="phone Number" required>
                                     <div class="help-block with-errors"></div>
