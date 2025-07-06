@@ -103,7 +103,7 @@
                         
                         <!-- Header Btn Start -->
                         <div class="header-btn d-inline-flex">
-                            <a href="contact.html" class="btn-default">Download CV</a>
+                            <button class="btn-default" id="downloadCV">Download CV</button>
                         </div>
                         <!-- Header Btn End -->
 					</div>
@@ -142,30 +142,27 @@
     <div class="our-scrolling-ticker">
         <!-- Scrolling Ticker Start -->
         <div class="scrolling-ticker-box">
-            <div class="scrolling-content">
+             <div class="scrolling-content">
                 <span><img src="images/star-icon.svg" alt="">Website Design</span>
                 <span><img src="images/star-icon.svg" alt="">Mobile App Design</span>
                 <span><img src="images/star-icon.svg" alt="">Wireframe Design</span>
                 <span><img src="images/star-icon.svg" alt="">Dashboard Design</span>
                 <span><img src="images/star-icon.svg" alt="">Product Design</span>
-                <span><img src="images/star-icon.svg" alt="">Website Design</span>
-                <span><img src="images/star-icon.svg" alt="">Mobile App Design</span>
-                <span><img src="images/star-icon.svg" alt="">Wireframe Design</span>
-                <span><img src="images/star-icon.svg" alt="">Dashboard Design</span>
-                <span><img src="images/star-icon.svg" alt="">Product Design</span>
-            </div>
-
-            <div class="scrolling-content">
-                <span><img src="images/star-icon.svg" alt="">Website Design</span>
-                <span><img src="images/star-icon.svg" alt="">Mobile App Design</span>
-                <span><img src="images/star-icon.svg" alt="">Wireframe Design</span>
-                <span><img src="images/star-icon.svg" alt="">Dashboard Design</span>
-                <span><img src="images/star-icon.svg" alt="">Product Design</span>
-                <span><img src="images/star-icon.svg" alt="">Website Design</span>
-                <span><img src="images/star-icon.svg" alt="">Mobile App Design</span>
-                <span><img src="images/star-icon.svg" alt="">Wireframe Design</span>
-                <span><img src="images/star-icon.svg" alt="">Dashboard Design</span>
-                <span><img src="images/star-icon.svg" alt="">Product Design</span>
+                <span><img src="images/star-icon.svg" alt="">Database Management</span>
+                <span><img src="images/star-icon.svg" alt="">Project Deployment</span>
+                <span><img src="images/star-icon.svg" alt="">Admin Panels</span>
+                <span><img src="images/star-icon.svg" alt="">Backend Development</span>
+                <span><img src="images/star-icon.svg" alt="">Frontend Development</span>
+                <span><img src="images/star-icon.svg" alt="">RESTful API Development</span>
+                <span><img src="images/star-icon.svg" alt="">Laravel Development</span>
+                <span><img src="images/star-icon.svg" alt="">Vue.js Development</span>
+                <span><img src="images/star-icon.svg" alt="">E-commerce Website</span>
+                <span><img src="images/star-icon.svg" alt="">Payment Gateway Integration</span>
+                <span><img src="images/star-icon.svg" alt="">Custom Web Applications</span>
+                <span><img src="images/star-icon.svg" alt="">Real-time Chat Systems</span>
+                <span><img src="images/star-icon.svg" alt="">Cron Job Scheduling</span>
+                <span><img src="images/star-icon.svg" alt="">VPS Server Setup</span>
+                <span><img src="images/star-icon.svg" alt="">Third Party API Integration</span>
             </div>
         </div>
         <!-- Scrolling Ticker End -->
@@ -412,7 +409,7 @@
                                     </div>
                                     <div class="contact-info-content">
                                         <h3>Address</h3>
-                                        <p>2972 Westheimer Rd. Santa Ana, New York, USA</p>
+                                        <p>152004 Ferozepur Cantt, Punjab, INDIA</p>
                                     </div>
                                 </div>
                                 <!-- Contact Info Item End -->
@@ -424,7 +421,7 @@
                                     </div>
                                     <div class="contact-info-content">
                                         <h3>Phone Number</h3>
-                                        <p><a href="tel:123456789">+1 (123) 456-789</a></p>
+                                        <p><a href="tel:123456789">+91 8591373660</a></p>
                                     </div>
                                 </div>
                                 <!-- Contact Info Item End -->
@@ -449,40 +446,50 @@
                     <div class="contact-form">
                         <p class="wow fadeInUp">Fill out the form below to connect with me. I'll get back to you soon to discuss your project or answer any questions.</p>
 
-                        <form id="contactForm" action="#" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.2s">
+                         <form id="contactForm" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.2s">
                             <div class="row">
                                 <div class="form-group col-md-6 mb-4">
-                                    <input type="text" name="fname" class="form-control" id="fname" placeholder="First Name" required>
+                                    <label for="fname" class="form-label">First name</label>
+                                    <input type="text" name="fname" class="form-control" id="fname"
+                                        placeholder="Enter first name" required>
                                     <div class="help-block with-errors"></div>
                                 </div>
 
                                 <div class="form-group col-md-6 mb-4">
-                                    <input type="text" name="lname" class="form-control" id="lname" placeholder="Last Name" required>
+                                    <label for="lname" class="form-label">Last name</label>
+                                    <input type="text" name="lname" class="form-control" id="lname"
+                                        placeholder="Enter last name" required>
                                     <div class="help-block with-errors"></div>
                                 </div>
 
                                 <div class="form-group col-md-6 mb-4">
-                                    <input type="email" name="email" class="form-control" id="email" placeholder="Email" required>
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" name="email" class="form-control" id="email" placeholder="Email"
+                                        required>
                                     <div class="help-block with-errors"></div>
                                 </div>
 
                                 <div class="form-group col-md-6 mb-4">
-                                    <input type="text" name="phone" class="form-control" id="phone" placeholder="phone Number" required>
+                                    <label for="phone" class="form-label">Phone</label>
+                                    <input type="text" name="phone" class="form-control" id="phone"
+                                        placeholder="phone Number" required>
                                     <div class="help-block with-errors"></div>
                                 </div>
 
                                 <div class="form-group col-md-12 mb-4">
-                                    <textarea name="message" class="form-control" id="message" rows="6" placeholder="Message"></textarea>
+                                    <textarea name="message" class="form-control" id="message" rows="6"
+                                        placeholder="Message"></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
 
                                 <div class="col-md-12">
-                                    <button type="submit" class="btn-default">submit message</button>
+                                    <button type="submit" class="btn-default">
+                                          <span class=" spinner-border-sm" role="status" aria-hidden="true"></span>
+                                        submit message</button>
                                     <div id="msgSubmit" class="h3 hidden"></div>
                                 </div>
                             </div>
-                        </form>
-                    </div>
+                        </form>                    </div>
                     <!-- Contact Form End -->
                 </div>
             </div>
@@ -524,17 +531,23 @@
 
                         <!-- About Footer Content Start -->
                         <div class="about-footer-content">
-                            <p>Crafting intuitive, user-centric designs that bring ideas to life. With a passion for innovation and creativity, I help businesses and individuals.</p>
+                            <p>Building secure, scalable backend solutions that turn complex ideas into powerful web applications. With a passion for clean architecture and performance, I help businesses and startups bring their digital products to life.</p>
                         </div>           
                         <!-- About Footer Content End -->
                          
                         <!-- Footer Social Link Start -->
                         <div class="footer-social-links">
-                            <ul>
-                                <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                          <ul>
+                                <li><a href="https://github.com/navjotsinghprince" target="_blank"><i
+                                            class="fa-brands fa-github"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/navjot-singh-prince/" target="_blank"><i
+                                            class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li><a href="https://www.youtube.com/@navjotdeveloper/" target="_blank"><i
+                                            class="fa-brands fa-youtube"></i></a></li>
+                                <li><a href="https://www.upwork.com/freelancers/navjots18" target="_blank"><i
+                                            class="fa-brands fa-upwork"></i></a></li>
+                                <li><a href="https://x.com/Princeferozepur" target="_blank"><i
+                                            class="fa-brands fa-x-twitter"></i></a></li>
                             </ul>
                         </div>
                         <!-- Footer Social Link End -->
@@ -577,7 +590,7 @@
                         <ul>
                             <li><a href="#">Behance</a></li>
                             <li><a href="#">Dribbble</a></li>
-                            <li><a href="#">Upwork</a></li>
+                            <li><a href="https://www.upwork.com/freelancers/navjots18" target="_blank">Upwork</a></li>
                             <li><a href="#">Fiverr</a></li>
                         </ul>
                     </div>
@@ -587,7 +600,10 @@
                 <div class="col-lg-12">
                     <!-- Footer Copyright Start -->
                     <div class="footer-copyright-text">
-                        <p>Copyright © 2025 All Rights Reserved.</p>
+                        <p>Copyright © <span id="year"></span>
+                            <script> document.getElementById("year").textContent = new Date().getFullYear();</script>
+                            All Rights Reserved.
+                        </p>
                     </div>
                     <!-- Footer Copyright End -->
                 </div>

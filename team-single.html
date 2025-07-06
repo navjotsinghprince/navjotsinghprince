@@ -118,7 +118,7 @@
 
                         <!-- Header Btn Start -->
                         <div class="header-btn d-inline-flex">
-                            <a href="contact.html" class="btn-default">Download CV</a>
+                            <button class="btn-default" id="downloadCV">Download CV</button>
                         </div>
                         <!-- Header Btn End -->
                     </div>
@@ -158,30 +158,27 @@
     <div class="our-scrolling-ticker">
         <!-- Scrolling Ticker Start -->
         <div class="scrolling-ticker-box">
-            <div class="scrolling-content">
+             <div class="scrolling-content">
                 <span><img src="images/star-icon.svg" alt="">Website Design</span>
                 <span><img src="images/star-icon.svg" alt="">Mobile App Design</span>
                 <span><img src="images/star-icon.svg" alt="">Wireframe Design</span>
                 <span><img src="images/star-icon.svg" alt="">Dashboard Design</span>
                 <span><img src="images/star-icon.svg" alt="">Product Design</span>
-                <span><img src="images/star-icon.svg" alt="">Website Design</span>
-                <span><img src="images/star-icon.svg" alt="">Mobile App Design</span>
-                <span><img src="images/star-icon.svg" alt="">Wireframe Design</span>
-                <span><img src="images/star-icon.svg" alt="">Dashboard Design</span>
-                <span><img src="images/star-icon.svg" alt="">Product Design</span>
-            </div>
-
-            <div class="scrolling-content">
-                <span><img src="images/star-icon.svg" alt="">Website Design</span>
-                <span><img src="images/star-icon.svg" alt="">Mobile App Design</span>
-                <span><img src="images/star-icon.svg" alt="">Wireframe Design</span>
-                <span><img src="images/star-icon.svg" alt="">Dashboard Design</span>
-                <span><img src="images/star-icon.svg" alt="">Product Design</span>
-                <span><img src="images/star-icon.svg" alt="">Website Design</span>
-                <span><img src="images/star-icon.svg" alt="">Mobile App Design</span>
-                <span><img src="images/star-icon.svg" alt="">Wireframe Design</span>
-                <span><img src="images/star-icon.svg" alt="">Dashboard Design</span>
-                <span><img src="images/star-icon.svg" alt="">Product Design</span>
+                <span><img src="images/star-icon.svg" alt="">Database Management</span>
+                <span><img src="images/star-icon.svg" alt="">Project Deployment</span>
+                <span><img src="images/star-icon.svg" alt="">Admin Panels</span>
+                <span><img src="images/star-icon.svg" alt="">Backend Development</span>
+                <span><img src="images/star-icon.svg" alt="">Frontend Development</span>
+                <span><img src="images/star-icon.svg" alt="">RESTful API Development</span>
+                <span><img src="images/star-icon.svg" alt="">Laravel Development</span>
+                <span><img src="images/star-icon.svg" alt="">Vue.js Development</span>
+                <span><img src="images/star-icon.svg" alt="">E-commerce Website</span>
+                <span><img src="images/star-icon.svg" alt="">Payment Gateway Integration</span>
+                <span><img src="images/star-icon.svg" alt="">Custom Web Applications</span>
+                <span><img src="images/star-icon.svg" alt="">Real-time Chat Systems</span>
+                <span><img src="images/star-icon.svg" alt="">Cron Job Scheduling</span>
+                <span><img src="images/star-icon.svg" alt="">VPS Server Setup</span>
+                <span><img src="images/star-icon.svg" alt="">Third Party API Integration</span>
             </div>
         </div>
         <!-- Scrolling Ticker End -->
@@ -498,11 +495,17 @@
 
                         <!-- Footer Social Link Start -->
                         <div class="footer-social-links">
-                            <ul>
-                                <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                          <ul>
+                                <li><a href="https://github.com/navjotsinghprince" target="_blank"><i
+                                            class="fa-brands fa-github"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/navjot-singh-prince/" target="_blank"><i
+                                            class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li><a href="https://www.youtube.com/@navjotdeveloper/" target="_blank"><i
+                                            class="fa-brands fa-youtube"></i></a></li>
+                                <li><a href="https://www.upwork.com/freelancers/navjots18" target="_blank"><i
+                                            class="fa-brands fa-upwork"></i></a></li>
+                                <li><a href="https://x.com/Princeferozepur" target="_blank"><i
+                                            class="fa-brands fa-x-twitter"></i></a></li>
                             </ul>
                         </div>
                         <!-- Footer Social Link End -->
@@ -545,7 +548,7 @@
                         <ul>
                             <li><a href="#">Behance</a></li>
                             <li><a href="#">Dribbble</a></li>
-                            <li><a href="#">Upwork</a></li>
+                            <li><a href="https://www.upwork.com/freelancers/navjots18" target="_blank">Upwork</a></li>
                             <li><a href="#">Fiverr</a></li>
                         </ul>
                     </div>
@@ -555,7 +558,10 @@
                 <div class="col-lg-12">
                     <!-- Footer Copyright Start -->
                     <div class="footer-copyright-text">
-                        <p>Copyright © 2025 All Rights Reserved.</p>
+                        <p>Copyright © <span id="year"></span>
+                            <script> document.getElementById("year").textContent = new Date().getFullYear();</script>
+                            All Rights Reserved.
+                        </p>
                     </div>
                     <!-- Footer Copyright End -->
                 </div>
