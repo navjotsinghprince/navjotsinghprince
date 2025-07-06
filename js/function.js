@@ -220,6 +220,17 @@
 		}
 	});
 
+	/*Download CV*/
+	$("#downloadCV").on('click', function (e) {
+		const link = document.createElement("a");
+		link.href = "files/Navjot_Singh_Resume.pdf";
+		link.target = "_blank";
+		link.download = "Navjot_Singh_CV.pdf";
+		document.body.appendChild(link);
+		link.click();
+		document.body.removeChild(link);
+	});
+
 	/* Contact form validation */
 	var $contactform = $("#contactForm");
 	$contactform.validator({ focus: false }).on("submit", function (event) {
@@ -289,9 +300,9 @@
 			var msgClasses = "h4 text-danger";
 		}
 		$("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
-		// setTimeout(() => {
-		// 	$("#msgSubmit").removeClass(msgClasses).text("");
-		// }, 3000);
+		setTimeout(() => {
+			$("#msgSubmit").removeClass(msgClasses).text("");
+		}, 3000);
 	}
 	/* Contact form validation end */
 

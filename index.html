@@ -221,19 +221,8 @@
 
                         <!-- Header Btn Start -->
                         <div class="header-btn d-inline-flex">
-                            <button class="btn-default" onclick="downloadCV()">Download CV</button>
+                            <button class="btn-default" id="downloadCV">Download CV</button>
                         </div>
-
-                        <script>
-                            function downloadCV() {
-                                const link = document.createElement("a");
-                                link.href = "files/Navjot_Singh_Resume.pdf";
-                                link.download = "Navjot_Singh_CV.pdf";
-                                document.body.appendChild(link);
-                                link.click();
-                                document.body.removeChild(link);
-                            }
-                        </script>
                         <!-- Header Btn End -->
                     </div>
                     <!-- Main Menu End -->
