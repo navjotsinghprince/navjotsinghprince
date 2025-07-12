@@ -9,9 +9,7 @@
 ### 💻 PHP Laravel Backend Web Developer | Vue.js & API Specialist | India 🇮🇳
 Hello ! <a href="https://navjotsinghprince.com/"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="20"/></a> I'm Navjot a Full-Stack Laravel Developer helping businesses to grow, build fast, secure, and scale. I specialize in developing secure, high-performance web application platforms for global clients.
 
-
 ---
-
 ### 🚀 What I Do Best
 
 - 🔧 Laravel API Development & Optimization  
@@ -26,32 +24,21 @@ Hello ! <a href="https://navjotsinghprince.com/"><img src="https://media.giphy.c
 
 ---
 
-### 💡 My Approach
-
-I aim to create **efficient, intuitive, and scalable** solutions that solve real-world problems. I take ownership of every line of code I write and ensure it's crafted with clarity and performance in mind. Whether it's building a project from scratch or optimizing an existing system — I love pushing limits and exceeding client expectations.
-
-Over the years, I’ve contributed to projects that:
-- Enhanced app performance by 40%+
-- Automated business workflows
-- Created seamless user experiences
-
----
-
 ### 🌍 Let’s Build Something Together
 
-Most of my work is available as open source on [GitHub](https://github.com/navjotsinghprince), and you can check out my portfolio on [my website](https://navjotsinghprince.com).
+I take ownership of every line of code I write and ensure it's crafted with clarity and performance in mind. Whether it's building a project from scratch or optimizing an existing system — I love pushing limits.
+Most of my work is available as open source on [GitHub](https://github.com/navjotsinghprince), and you can check out my portfolio on [my website](https://navjotsinghprince.com)
 
 If you're looking for someone to:
 - Build a backend from scratch,
 - Scale your Laravel app,
 - Or help you integrate complex APIs...
 
+I’m open to freelance, contract, and collaborative full time opportunities as well.
+
 📩 **Let’s talk:** [info@navjotsinghprince.com](mailto:info@navjotsinghprince.com)  
-I’m open to freelance, contract, and collaborative opportunities.
-
+🌐 More about me: [navjotsinghprince.com](https://navjotsinghprince.com)
 ---
-
-Thanks for stopping by — let’s build something amazing 🚀
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,sass,js,jquery,vue,vuetify,php,laravel,mysql,npm,pinia,postman,vscode,git,github,gitlab,bitbucket,linux,nginx,redis,ubuntu,ai,aws,cloudflare)](https://skillicons.dev)
 
