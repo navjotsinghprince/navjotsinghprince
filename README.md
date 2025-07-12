@@ -6,36 +6,54 @@
 
 ![Image Caption](./assets/prince-ferozepuria-snake.svg)
 
-Hello !  <a href="https:/navjotsinghprince.com/"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"  width="20"></a>   My name is Navjot Singh a Sr. Software Developer.
+# 👋 Hi there! <a href="https://navjotsinghprince.com/"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="20"/></a> I'm Navjot
 
-Laravel is where I shine!<br>
-Building robust applications that are efficient, scalable, and maintainable.<br>
-I'm highly proficient in Laravel ,and I use tools like Vue.js, PHP, JavaScript, SQL, and more.
+### 💻 PHP Laravel Backend Developer | Vue.js & API Specialist | India 🇮🇳
 
-🚀 Project APIs development.<br>
-🚀 Integrating third-party APIs and services.<br>
-🚀 Laravel / PHP / Vue.js / Vuetify /  MySQL / S3 Cloud.<br>
-🚀 Version control tools such as Git.<br>
-🚀 Custom application Modifications.<br>
-🚀 Optimizing application performance and scalability.<br>
-🚀 Delivering the best experience with client centric mindset.<br>
+I’m a passionate backend developer specializing in **Laravel**, building high-performance, scalable, and maintainable web applications. With a strong focus on **clean architecture**, **RESTful APIs**, and **client satisfaction**, I deliver reliable backend solutions tailored for real-world use cases.
 
-Over the years, My passion in developing user-friendly and web applications that solve real-world problems and help more and more users.
-I have contributed to projects that enhanced performance, streamlined workflows, and improved user experiences.
+---
 
-I am always ready to take on new challenges and collaborate on exciting projects. 
+### 🚀 What I Do Best
 
+- 🔧 Laravel API Development & Optimization  
+- 🔌 Third-Party API Integration (Stripe, Firebase, Mailgun, etc.)  
+- 🌐 Full-Stack App Development using Laravel + Vue.js + Vuetify  
+- 📊 MySQL, SQL Optimization & Scalable Database Design  
+- ☁️ AWS S3 Cloud Integration  
+- 🧪 Testing, Debugging & Performance Tuning  
+- 📈 Client-Centric, Scalable App Solutions  
+- 🧠 Custom Business Logic Implementation  
+- 🛠️ Git & Version Control Workflow
 
+---
 
-Most of my projects are released as open-source on GitHub. You can find more details about my projects in the portfolio section of my website or my Github profile. <br>
+### 💡 My Approach
 
-Whether you need a scalable web application, a powerful backend solution, or expert guidance in web application, I’m here to help. Let’s connect and build something amazing together !
+I aim to create **efficient, intuitive, and scalable** solutions that solve real-world problems. I take ownership of every line of code I write and ensure it's crafted with clarity and performance in mind. Whether it's building a project from scratch or optimizing an existing system — I love pushing limits and exceeding client expectations.
 
-Got an offer for me? Reach me at : info@navjotsinghprince.com 
+Over the years, I’ve contributed to projects that:
+- Enhanced app performance by 40%+
+- Automated business workflows
+- Created seamless user experiences
 
-Thanks For Visit
+---
 
-<img src="https://navjotsinghprince.com/img/signature-black.png" alt="Navjot Singh" height="55">
+### 🌍 Let’s Build Something Together
+
+Most of my work is available as open source on [GitHub](https://github.com/navjotsinghprince), and you can check out my portfolio on [my website](https://navjotsinghprince.com).
+
+If you're looking for someone to:
+- Build a backend from scratch,
+- Scale your Laravel app,
+- Or help you integrate complex APIs...
+
+📩 **Let’s talk:** [info@navjotsinghprince.com](mailto:info@navjotsinghprince.com)  
+I’m open to freelance, contract, and collaborative opportunities.
+
+---
+
+Thanks for stopping by — let’s build something amazing 🚀
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,sass,js,jquery,vue,vuetify,php,laravel,mysql,npm,pinia,postman,vscode,git,github,gitlab,bitbucket,linux,nginx,redis,ubuntu,ai,aws,cloudflare)](https://skillicons.dev)
 
