@@ -22,7 +22,6 @@ Hello ! <a href="https://navjotsinghprince.com/"><img src="https://media.giphy.c
 - 🛠️ Git & Version Control Workflow
 
 ### 🌍 Let’s Build Something Together
-
 I take ownership of every line of code I write and ensure it's crafted with clarity and performance in mind. Whether it's building a project from scratch or optimizing an existing system — I love pushing limits.
 
 If you're looking for someone to:
@@ -34,7 +33,7 @@ I’m open to freelance, contract, and collaborative full time opportunities as 
 
 📩 Let’s talk: [info@navjotsinghprince.com](mailto:info@navjotsinghprince.com)  
 📞 Phone: [+91-85913-73660](tel:+918591373660)  
-🌐 More about me: [navjotsinghprince.com](https://navjotsinghprince.com)
+🌐 Website: [navjotsinghprince.com](https://navjotsinghprince.com)
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,sass,js,jquery,vue,vuetify,php,laravel,mysql,npm,pinia,postman,vscode,git,github,gitlab,bitbucket,linux,nginx,redis,ubuntu,ai,aws,cloudflare)](https://skillicons.dev)
 
