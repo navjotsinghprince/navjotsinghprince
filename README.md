@@ -6,10 +6,8 @@
 
 ![Image Caption](./assets/prince-ferozepuria-snake.svg)
 
-# 👋 Hi there! <a href="https://navjotsinghprince.com/"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="20"/></a>
-
 ### 💻 PHP Laravel Backend Web Developer | Vue.js & API Specialist | India 🇮🇳
- I'm Navjot a Full-Stack Laravel Developer helping businesses to grow, build fast, secure, and scale. I specialize in developing secure, high-performance web application platforms for global clients.
+Hello ! <a href="https://navjotsinghprince.com/"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="20"/></a> I'm Navjot a Full-Stack Laravel Developer helping businesses to grow, build fast, secure, and scale. I specialize in developing secure, high-performance web application platforms for global clients.
 
 
 ---
