@@ -29,7 +29,7 @@ If you're looking for someone to:
 - Scale your Laravel app,
 - Or help you integrate complex APIs...
 
-I’m open to freelance, contract, and collaborative full time opportunities as well.
+I’m open to remote, contract, and collaborative full time opportunities as well.
 
 📩 Let’s talk: [info@navjotsinghprince.com](mailto:info@navjotsinghprince.com)  
 📞 Phone: [+91-85913-73660](tel:+918591373660)  
