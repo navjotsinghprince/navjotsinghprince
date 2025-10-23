@@ -1,9 +1,3 @@
-
-<h3>
-    Official Website : <a href="https://navjotsinghprince.com/" target="_blank">navjotsinghprince.com</a>
-    <a href="https:/navjotsinghprince.com/"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"  width="28"></a>
-</h3>
-
 ![Image Caption](./assets/prince-ferozepuria-snake.svg)
 
 ### 💻 PHP Laravel Backend Web Developer | Vue.js & API Specialist | India 🇮🇳
@@ -30,9 +24,8 @@ If you're looking for someone to:
 
 I’m open to remote, contract, and collaborative full time opportunities as well.
 
-📩 Let’s talk: [info@navjotsinghprince.com](mailto:info@navjotsinghprince.com)  
+📩 Let’s talk: [navjotsinghprince1@gmail.com](mailto:navjotsinghprince1@gmail.com)  
 📞 Phone: [+91-85913-73660](tel:+918591373660)  
-🌐 Website: [navjotsinghprince.com](https://navjotsinghprince.com)
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,sass,js,jquery,vue,vuetify,php,laravel,mysql,npm,pinia,postman,vscode,git,github,gitlab,bitbucket,linux,nginx,redis,ubuntu,ai,aws,cloudflare)](https://skillicons.dev)
 
