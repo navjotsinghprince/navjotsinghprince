@@ -3,7 +3,7 @@
 ### 💻 PHP Laravel Web Developer | Vue.js & API
 
 
-📩 Let’s talk: [navjotsinghprince1@gmail.com](mailto:navjotsinghprince1@gmail.com)  
+📩 Email: [navjotsinghprince1@gmail.com](mailto:navjotsinghprince1@gmail.com)  
 📞 Phone: [+91 85913-73660](tel:+918591373660)  
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,sass,js,jquery,vue,vuetify,php,laravel,mysql,npm,pinia,postman,vscode,git,github,gitlab,bitbucket,linux,nginx,redis,ubuntu,ai,aws,cloudflare)](https://skillicons.dev)
