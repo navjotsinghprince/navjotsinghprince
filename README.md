@@ -1,6 +1,6 @@
 ![Image Caption](./assets/prince-ferozepuria-snake.svg)
 
-### 💻 PHP Laravel Web Developer | Vue.js & API Specialist
+### 💻 PHP Laravel Web Developer | Vue.js & API
 
 
 📩 Let’s talk: [navjotsinghprince1@gmail.com](mailto:navjotsinghprince1@gmail.com)  
