@@ -5,11 +5,7 @@
 
 ![Image Caption](./assets/prince-ferozepuria-snake.svg)
 
-Hello !  <a href="https://navjotsinghprince.github.io/navjotsinghprince/"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"  width="20"></a>   My name is Navjot Singh a 
 ### 💻 Sr. PHP Laravel Web Developer | Vue.js & API
-
-
-Got an offer for me? Reach me at:
 
 📩 Email: [navjotsinghprince1@gmail.com](mailto:navjotsinghprince1@gmail.com)  
 📞 Phone: [+91 85913-73660](tel:+918591373660) 
