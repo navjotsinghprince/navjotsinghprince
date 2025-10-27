@@ -1,0 +1,31 @@
+<h3>
+  Official Website : <a href="https://navjotsinghprince.github.io/navjotsinghprince/" target="_blank">https://navjotsinghprince.github.io/navjotsinghprince</a>
+    <a href="https://navjotsinghprince.github.io/navjotsinghprince/"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"  width="28"></a>
+</h3>
+
+![Image Caption](./assets/prince-ferozepuria-snake.svg)
+
+Hello !  <a href="https://navjotsinghprince.github.io/navjotsinghprince/"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"  width="20"></a>   My name is Navjot Singh a 
+### 💻 Sr. PHP Laravel Web Developer | Vue.js & API
+
+
+Got an offer for me? Reach me at:
+
+📩 Email: [navjotsinghprince1@gmail.com](mailto:navjotsinghprince1@gmail.com)  
+📞 Phone: [+91 85913-73660](tel:+918591373660) 
+ 
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,sass,js,jquery,vue,vuetify,php,laravel,mysql,npm,pinia,postman,vscode,git,github,gitlab,bitbucket,linux,nginx,redis,ubuntu,ai,aws,cloudflare)](https://skillicons.dev)
+
+<a href="https://ko-fi.com/princeferozepuria" target="_blank">
+<img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" >
+</a>
+
+Thanks For Visit
+
+<img src="./img/signature-black.png" alt="Navjot Singh" height="55">
+
+<!--
+**navjotsinghprince/navjotsinghprince** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+-->
+
