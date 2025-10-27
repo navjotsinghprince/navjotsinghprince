@@ -1,5 +1,5 @@
 <h3>
-  Official Website : <a href="https://navjotsinghprince.github.io/navjotsinghprince/" target="_blank">https://navjotsinghprince.github.io/navjotsinghprince</a>
+ 🔗 <a href="https://navjotsinghprince.github.io/navjotsinghprince/" target="_blank">https://navjotsinghprince.github.io/navjotsinghprince</a>
     <a href="https://navjotsinghprince.github.io/navjotsinghprince/"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"  width="28"></a>
 </h3>
 
